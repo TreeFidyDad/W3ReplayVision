@@ -135,7 +135,7 @@ const NAME_MAP = {
   earc: 'Archer',
   eden: 'Demon Hunter',
   edoc: 'Druid of the Claw',
-  emow: 'Huntress',
+  emow: 'Moon Well',
   emtg: 'Mountain Giant',
   ewsp: 'Wisp',
   nftb: 'Forest Troll Berserker',
@@ -152,7 +152,7 @@ const NAME_MAP = {
   etoe: 'Tree of Eternity',
   gcel: 'Ancient of Wonders',
   oven: 'Ancient of Wind',
-  stel: 'Tree of Life',
+  etol: 'Tree of Life',
   edob: 'Huntress Hall',
 
   // ===========================================================================
@@ -169,6 +169,7 @@ const NAME_MAP = {
   Rorb: 'Reinforced Defenses',
   Rotr: 'Troll Regeneration',
   Roar: 'Steel Unit Armor',
+  Ropg: 'Pillage',
   // Human
   Rhla: 'Long Rifles',
   Rhra: 'Gunpowder',
@@ -188,6 +189,8 @@ const NAME_MAP = {
   Rers: 'Rejuvenation',
   Reuv: 'Ultravision',
   Reeb: 'Bear Form',
+  Reib: 'Improved Bows',
+  Renb: 'Natures Blessings',
   spre: 'Resistant Skin Upgrade', // alias  
   
 
@@ -195,14 +198,14 @@ const NAME_MAP = {
   // ITEMS ---------------------------------------------------------------------
   bspd: 'Boots of Speed',
   cnob: 'Circlet of Nobility',
-  dust: 'Ritual Dagger',
+  dust: 'Dust',
   hslv: 'Healing Salves',
   ocor: 'Orb of Corruption',
   oli2: 'Orb of Lightning',
   phea: 'Potion of Healing',
   pman: 'Potion of Mana',
   pnvl: 'Potion of Invulnerability',
-  plcl: 'Clarity Potion',
+  plcl: 'Lesser Clarity Potion',
   rnec: 'Rod of Necromancy',
   sreg: 'Scroll of Regeneration',
   shas: 'Scroll of Speed',
@@ -210,6 +213,7 @@ const NAME_MAP = {
   stwp: 'Scroll of Town Portal',
   wneg: 'Wand of Negation',
   spro: 'Scroll of Protection',
+  pinv: 'Potion of Invisibility',
 
 };
 

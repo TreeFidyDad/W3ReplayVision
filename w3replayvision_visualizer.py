@@ -208,6 +208,11 @@ def create_pygame_with_multi_replay():
 
     checkbox_rects = []
 
+    # Dropdown state variables
+    dropdown_open = False
+    dropdown_rect = None
+    dropdown_items_rects = []
+
     while running:
         width, height = screen.get_size()
         scale = max(1, min(width / 1450, height / 900, 1.5))
@@ -237,17 +242,26 @@ def create_pygame_with_multi_replay():
             elif event.type == pygame.VIDEORESIZE:
                 screen = pygame.display.set_mode((event.w, event.h), pygame.RESIZABLE)
             elif event.type == pygame.MOUSEBUTTONDOWN:
-                # "Add Replay" button
+                # Add Replay button
                 if add_rect.collidepoint(mx, my):
                     new_max = add_replay(unit_creation_data_all, player_color_map_all, player_enabled, replays_loaded)
                     if new_max:
                         max_time_sec = max(max_time_sec, new_max)
                         playhead_time = min(playhead_time, max_time_sec)
-                # Player checkboxes
-                for rect, pname in checkbox_rects:
-                    if rect.collidepoint(mx, my):
-                        player_enabled[pname] = not player_enabled[pname]
-                        break
+
+                # Dropdown toggle
+                if dropdown_rect and dropdown_rect.collidepoint(mx, my):
+                    dropdown_open = not dropdown_open
+                    if not dropdown_open:
+                        dropdown_items_rects.clear()
+
+                # Dropdown checkbox clicks
+                if dropdown_open:
+                    for rect, pname in dropdown_items_rects:
+                        if rect.collidepoint(mx, my):
+                            player_enabled[pname] = not player_enabled[pname]
+                            break
+
                 # Slider
                 if slider_track_rect.collidepoint(mx, my) or thumb_rect.collidepoint(mx, my):
                     dragging_slider = True
@@ -293,7 +307,7 @@ def create_pygame_with_multi_replay():
                 else:
                     scroll_offset += event.y * 40  # Y is +1 for scroll up, -1 for scroll down
 
-        # --- Playhead animation
+        # --- Playhead animation ---
         if is_playing:
             playhead_time += play_speed * dt
             if playhead_time > max_time_sec:
@@ -301,49 +315,71 @@ def create_pygame_with_multi_replay():
                 is_playing = False
         playhead_time = max(0, min(playhead_time, max_time_sec))
 
-        # --- "Add Replay" Button (Modern Style) ---
+        # --- Add Replay button ---
         add_rect = pygame.Rect(pad, pad, 170*scale, 48*scale)
         shadow_rect = add_rect.move(2*scale, 3*scale)
-        pygame.draw.rect(screen, (40, 60, 130), shadow_rect, border_radius=16)  # shadow
-        pygame.draw.rect(screen, (65, 130, 255), add_rect, border_radius=16)    # button
-
-        # Subtle highlight/glow (optional, can comment out if unwanted)
+        pygame.draw.rect(screen, (40, 60, 130), shadow_rect, border_radius=16)
+        pygame.draw.rect(screen, (65, 130, 255), add_rect, border_radius=16)
         highlight_rect = add_rect.inflate(-8*scale, -add_rect.height//2)
         highlight_surf = pygame.Surface(highlight_rect.size, pygame.SRCALPHA)
         pygame.draw.ellipse(highlight_surf, (255,255,255,38), highlight_surf.get_rect())
         screen.blit(highlight_surf, highlight_rect.topleft)
-
-        # Centered Text
         add_text = font.render("+ Add Replay", True, (255,255,255))
         screen.blit(add_text, (add_rect.x + add_rect.width//2 - add_text.get_width()//2,
-                            add_rect.y + add_rect.height//2 - add_text.get_height()//2))
+                               add_rect.y + add_rect.height//2 - add_text.get_height()//2))
 
-        # --- Player Checkboxes (with dynamic clickable rects) ---
-        box_y = pad + 44*scale
-        cb_size = int(32 * scale)
-        cb_gap = int(32 * scale)
-        box_x = pad
-        checkbox_rects.clear()
-        for i, pname in enumerate(players):
-            color = player_color_map_all[pname]
-            cb_rect = pygame.Rect(box_x, box_y, cb_size, cb_size)
-            pygame.draw.rect(screen, BG, cb_rect, border_radius=7)
-            pygame.draw.rect(screen, color, cb_rect, 4, border_radius=7)
-            if player_enabled[pname]:
-                pygame.draw.line(screen, color, (box_x+6, box_y+cb_size//2), (box_x+cb_size//2, box_y+cb_size-7), 4)
-                pygame.draw.line(screen, color, (box_x+cb_size//2, box_y+cb_size-7), (box_x+cb_size-7, box_y+7), 4)
-            pname_label = playerfont.render(pname, True, color)
-            screen.blit(pname_label, (box_x+cb_size+6, box_y-4))
-            checkbox_rects.append((cb_rect, pname))
-            box_x += pname_label.get_width() + cb_size + cb_gap
+        # --- Dropdown Button ---
+        dropdown_width = 160 * scale
+        dropdown_height = 48 * scale
+        dropdown_x = width - pad - dropdown_width
+        dropdown_y = pad
+        dropdown_rect = pygame.Rect(dropdown_x, dropdown_y, dropdown_width, dropdown_height)
+        pygame.draw.rect(screen, (50, 50, 50), dropdown_rect, border_radius=12)
+        pygame.draw.rect(screen, (120, 120, 120), dropdown_rect, 2, border_radius=12)
+        dropdown_label = font.render("Players ▼", True, (220, 220, 220))
+        screen.blit(dropdown_label, (dropdown_rect.x + 12*scale, dropdown_rect.y + (dropdown_height - dropdown_label.get_height()) / 2))
+
+        # Draw dropdown items if open
+        dropdown_items_rects.clear()
+        if dropdown_open:
+            item_height = 30 * scale
+            item_padding = 10 * scale
+            dropdown_items_rect = pygame.Rect(dropdown_x, dropdown_y + dropdown_height, dropdown_width, item_height * len(players))
+            pygame.draw.rect(screen, (40,40,40), dropdown_items_rect, border_radius=12)
+            pygame.draw.rect(screen, (100,100,100), dropdown_items_rect, 2, border_radius=12)
+
+            for i, pname in enumerate(players):
+                item_rect = pygame.Rect(dropdown_x + 8*scale, dropdown_y + dropdown_height + i*item_height, dropdown_width - 16*scale, item_height)
+                color = player_color_map_all[pname]
+                # Background hover effect
+                if item_rect.collidepoint(mx, my):
+                    pygame.draw.rect(screen, (70, 70, 70), item_rect, border_radius=8)
+                # Checkbox rect
+                cb_rect = pygame.Rect(item_rect.x + 5*scale, item_rect.y + item_height/4, item_height/2, item_height/2)
+                pygame.draw.rect(screen, BG, cb_rect, border_radius=4)
+                pygame.draw.rect(screen, color, cb_rect, 3, border_radius=4)
+                if player_enabled[pname]:
+                    pygame.draw.line(screen, color, (cb_rect.x+4, cb_rect.y + cb_rect.height//2),
+                                     (cb_rect.x + cb_rect.width//3, cb_rect.y + cb_rect.height - 6), 3)
+                    pygame.draw.line(screen, color, (cb_rect.x + cb_rect.width//3, cb_rect.y + cb_rect.height - 6),
+                                     (cb_rect.x + cb_rect.width - 4, cb_rect.y + 4), 3)
+                # Player name text
+                pname_label = font.render(pname, True, color)
+                screen.blit(pname_label, (cb_rect.right + 8*scale, item_rect.y + (item_height - pname_label.get_height())/2))
+                dropdown_items_rects.append((cb_rect, pname))
+
+        # --- Player Summaries and Timeline layout boundaries ---
+        # Reserve space to the left of dropdown for summaries and timeline
+        summary_max_width = dropdown_x - pad * 1.5
 
         # --- Player Summaries ---
-        grid_top = int(box_y + cb_size + 20*scale)
+        grid_top = pad + 44*scale + (dropdown_height if not dropdown_open else dropdown_height + len(players)*30*scale + 12)
         y_offset = grid_top
-        grid_left = int(pad*0.8)
-        grid_right = width - int(pad*0.8)
+        grid_left = pad * 0.8
+        grid_right = grid_left + summary_max_width
         for pi, pname in enumerate(players):
-            if not player_enabled[pname]: continue
+            if not player_enabled[pname]:
+                continue
             color = player_color_map_all[pname]
             pname_label = playerfont.render(pname, True, color)
             screen.blit(pname_label, (grid_left, y_offset+2))
@@ -382,7 +418,7 @@ def create_pygame_with_multi_replay():
         # --- Clock and Next-Icon(s) ---
         clock_y = y_offset + int(28*scale)
         clock_label = bigclock.render(format_time(playhead_time), True, (255, 255, 140))
-        clock_rect = clock_label.get_rect(center=(width//2, clock_y))
+        clock_rect = clock_label.get_rect(center=(grid_left + summary_max_width//2, clock_y))
         screen.blit(clock_label, clock_rect)
         for i, pname in enumerate(players):
             if not player_enabled[pname]: 
@@ -415,9 +451,9 @@ def create_pygame_with_multi_replay():
                 screen.blit(name_label, (name_x, name_y))
 
         # --- Slider under clock ---
-        slider_width = int(width * 0.82)
+        slider_width = int(summary_max_width * 0.98)
         slider_height = int(12 * scale)
-        slider_left = width // 2 - slider_width // 2
+        slider_left = grid_left + int(summary_max_width * 0.01)
         slider_top = clock_rect.bottom + int(36 * scale)
         slider_track_rect = pygame.Rect(slider_left, slider_top, slider_width, slider_height)
         pygame.draw.rect(screen, (225,225,225), slider_track_rect, border_radius=3)
@@ -445,8 +481,8 @@ def create_pygame_with_multi_replay():
         # --- PATCH: Timeline Zoom & Centering ---
         timeline_start_y = slider_track_rect.bottom + int(34*scale)
         timeline_height = timeline_area_height
-        timeline_left = int(width*0.08)
-        timeline_right = int(width*0.92)
+        timeline_left = grid_left
+        timeline_right = grid_left + summary_max_width
         timeline_width = timeline_right - timeline_left
 
         visible_seconds = max_time_sec / timeline_zoom if timeline_zoom > 0 else max_time_sec
@@ -462,7 +498,6 @@ def create_pygame_with_multi_replay():
                 t1 = max_time_sec
 
         px_per_sec = timeline_width / max(1, (t1 - t0))
-        # Draw optional zoom indicator above slider
         zoom_label = font.render(f"Zoom: {timeline_zoom:.2f}x  (+/- or mouse wheel)", True, (160, 160, 160))
         screen.blit(zoom_label, (slider_left, slider_top - 28))
 
@@ -472,9 +507,7 @@ def create_pygame_with_multi_replay():
             if not player_enabled[pname]:
                 continue
             color = player_color_map_all[pname]
-            # Filter events in window
             timeline_events = [row for row in unit_creation_data_all if row['player']==pname and t0 <= row['time_sec'] <= t1]
-            # Group by time_sec for vertical stacking
             events_by_time = {}
             for event in timeline_events:
                 events_by_time.setdefault(event['time_sec'], []).append(event)
@@ -482,7 +515,6 @@ def create_pygame_with_multi_replay():
             bar_rect = pygame.Rect(timeline_left, bar_y, timeline_width, 6)
             pygame.draw.rect(screen, BAR, bar_rect, border_radius=6)
             pygame.draw.rect(screen, BAR_BG, bar_rect, 2, border_radius=6)
-            # Draw each time group vertically stacked
             for tsec, events in events_by_time.items():
                 x = timeline_left + int((tsec - t0) * px_per_sec)
                 stack_n = len(events)
@@ -505,43 +537,35 @@ def create_pygame_with_multi_replay():
                     else:
                         pygame.draw.rect(screen, color, icon_rect, 1, border_radius=8)
                     screen.blit(icon_img, icon_rect.topleft)
-            # Playhead (always visible)
             playhead_x = timeline_left + int((playhead_time - t0) * px_per_sec)
             pygame.draw.line(screen, HIGHLIGHT, (playhead_x, bar_y-30), (playhead_x, bar_y+timeline_icon_size+20), 4)
             timeline_y += timeline_height + int(12*scale)
 
-
         # --- PATCH: Build List (w/ Scroll and CLIPPING) ---
         buildlist_y = timeline_y + int(25 * scale)
-        buildlist_x = int(width * 0.06)
-        buildlist_w = int(width * 0.88)
-        buildlist_h = height - buildlist_y - 12  # leave a little bottom margin
+        buildlist_x = grid_left
+        buildlist_w = summary_max_width
+        buildlist_h = height - buildlist_y - pad
+
+        # Ensure valid surface size (fix for pygame error)
+        if buildlist_w <= 0:
+            buildlist_w = 100
+        if buildlist_h <= 0:
+            buildlist_h = 100
+
         buildlist_colgap = int(35 * scale)
         buildlist_line_height = int(30 * scale)
         buildlist_font = pygame.font.SysFont("Consolas", int(23 * scale))
         buildlist_header_font = pygame.font.SysFont("Consolas", int(25 * scale), bold=True)
         player_buildlist_gap = int(48 * scale)
 
-        # Calculate total build list height for scroll clamp
-        estimated_total_height = 0
-        buildlist_per_player_rows = []
-        for pi, pname in enumerate(players):
-            if not player_enabled[pname]:
-                buildlist_per_player_rows.append(0)
-                continue
-            player_events = [row for row in unit_creation_data_all if row['player'] == pname]
-            row_count = len(player_events)
-            buildlist_per_player_rows.append(row_count)
-            estimated_total_height += (row_count + 2) * buildlist_line_height + player_buildlist_gap
-        max_scroll = max(0, estimated_total_height - buildlist_h)
+        max_scroll = 0
         scroll_offset = max(-max_scroll, min(0, scroll_offset))
 
-        # Make a CLIPPED build list surface (scrollable window)
         buildlist_surface = pygame.Surface((buildlist_w, buildlist_h))
         buildlist_surface.fill(BG)
-        buildlist_surface.set_colorkey((0, 0, 0))  # (not strictly required)
+        buildlist_surface.set_colorkey((0, 0, 0))
 
-        # Draw buildlist to the surface
         current_y = scroll_offset
         for pi, pname in enumerate(players):
             if not player_enabled[pname]:
@@ -573,7 +597,6 @@ def create_pygame_with_multi_replay():
                 buildlist_surface.blit(buildlist_font.render(row['name'], True, color), (col3, y))
             current_y += (len(player_events) + 2) * buildlist_line_height + player_buildlist_gap
 
-        # Blit the buildlist surface to the **main screen** at the desired spot (it will be clipped!)
         screen.blit(buildlist_surface, (buildlist_x, buildlist_y))
 
         pygame.display.flip()

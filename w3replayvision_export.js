@@ -214,6 +214,7 @@ const NAME_MAP = {
   wneg: 'Wand of Negation',
   spro: 'Scroll of Protection',
   pinv: 'Potion of Invisibility',
+  moon: 'Moonstone',
 
 };
 

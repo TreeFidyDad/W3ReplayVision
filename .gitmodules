@@ -1,0 +1,3 @@
+[submodule "node_modules/w3gjs"]
+	path = node_modules/w3gjs
+	url = https://github.com/PBug90/w3gjs

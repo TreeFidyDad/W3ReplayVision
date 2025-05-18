@@ -1,0 +1,201 @@
+==== Top-level keys ====
+id
+gamename
+randomseed
+startSpots
+observers
+players
+matchup
+creator
+type
+chat
+apm
+map
+version
+buildNumber
+duration
+expansion
+settings
+parseTime
+winningTeamId
+
+==== Recursive key/value explorer ====
+id: 1e0c85538dc0b09b93668944723d307f9ef53648246caa87ce3abaa9c4a81f9c
+gamename: w3c-20-hbA5rUDblt
+randomseed: 2202707079
+startSpots: 2
+observers: [Array, length: 1] Example: "FLO"
+  players[0].id: 1
+  players[0].name: TreeFidy#11863
+  players[0].teamid: 0
+  players[0].color: #20c000
+  players[0].race: O
+  players[0].raceDetected: O
+      players[0].units.summary.opeo: 15
+      players[0].units.summary.ohun: 11
+      players[0].units.summary.okod: 1
+      players[0].units.summary.orai: 3
+      players[0].units.summary.otbk: 3
+      players[0].units.summary.otbr: 1
+    players[0].units.summary: [Object]
+      players[0].units.order[0].id: opeo
+      players[0].units.order[0].ms: 1600
+    players[0].units.order: [Array, length: 34] Example: {"id":"opeo","ms":1600}
+  players[0].units: [Object]
+      players[0].upgrades.summary.Rora: 3
+      players[0].upgrades.summary.Rotr: 2
+      players[0].upgrades.summary.Robk: 1
+      players[0].upgrades.summary.Roen: 2
+      players[0].upgrades.summary.Rwdm: 1
+      players[0].upgrades.summary.Rorb: 1
+      players[0].upgrades.summary.Roar: 2
+    players[0].upgrades.summary: [Object]
+      players[0].upgrades.order[0].id: Rora
+      players[0].upgrades.order[0].ms: 239915
+    players[0].upgrades.order: [Array, length: 12] Example: {"id":"Rora","ms":239915}
+  players[0].upgrades: [Object]
+      players[0].items.summary.shea: 1
+      players[0].items.summary.pnvl: 1
+      players[0].items.summary.spro: 1
+      players[0].items.summary.shas: 2
+      players[0].items.summary.oli2: 1
+      players[0].items.summary.stwp: 1
+    players[0].items.summary: [Object]
+      players[0].items.order[0].id: shea
+      players[0].items.order[0].ms: 574389
+    players[0].items.order: [Array, length: 7] Example: {"id":"shea","ms":574389}
+  players[0].items: [Object]
+      players[0].buildings.summary.oalt: 1
+      players[0].buildings.summary.otrb: 6
+      players[0].buildings.summary.ofor: 1
+      players[0].buildings.summary.obar: 1
+      players[0].buildings.summary.ostr: 1
+      players[0].buildings.summary.ofrt: 1
+      players[0].buildings.summary.obea: 1
+      players[0].buildings.summary.ovln: 1
+      players[0].buildings.summary.ogre: 1
+      players[0].buildings.summary.owtw: 4
+    players[0].buildings.summary: [Object]
+      players[0].buildings.order[0].id: oalt
+      players[0].buildings.order[0].ms: 3409
+    players[0].buildings.order: [Array, length: 18] Example: {"id":"oalt","ms":3409}
+  players[0].buildings: [Object]
+    players[0].heroes[0].level: 4
+      players[0].heroes[0].abilities.AOsf: 2
+      players[0].heroes[0].abilities.AOcl: 2
+    players[0].heroes[0].abilities: [Object]
+    players[0].heroes[0].id: Ofar
+      players[0].heroes[0].abilityOrder[0].type: ability
+      players[0].heroes[0].abilityOrder[0].time: 124066
+      players[0].heroes[0].abilityOrder[0].value: AOsf
+    players[0].heroes[0].abilityOrder: [Array, length: 4] Example: {"type":"ability","time":124066,"value":"AOsf"}
+    players[0].heroes[0].retrainingHistory: [Array, length: 0]
+  players[0].heroes: [Array, length: 2] Example: {"level":4,"abilities":{"AOsf":2,"AOcl":2},"id":"Ofar","abilityOrder":[{"type":"ability","time":124066,"value":"AOsf"},{"type":"ability","time":351920,"value":"AOcl"},{"type":"ability","time":509413,"
+      players[0].heroCollector.Ofar.level: 0
+      players[0].heroCollector.Ofar.abilities: [Object]
+      players[0].heroCollector.Ofar.order: 1
+      players[0].heroCollector.Ofar.id: Ofar
+        players[0].heroCollector.Ofar.abilityOrder[0].type: ability
+        players[0].heroCollector.Ofar.abilityOrder[0].time: 124066
+        players[0].heroCollector.Ofar.abilityOrder[0].value: AOsf
+      players[0].heroCollector.Ofar.abilityOrder: [Array, length: 4] Example: {"type":"ability","time":124066,"value":"AOsf"}
+      players[0].heroCollector.Ofar.retrainingHistory: [Array, length: 0]
+    players[0].heroCollector.Ofar: [Object]
+      players[0].heroCollector.Otch.level: 0
+      players[0].heroCollector.Otch.abilities: [Object]
+      players[0].heroCollector.Otch.order: 2
+      players[0].heroCollector.Otch.id: Otch
+        players[0].heroCollector.Otch.abilityOrder[0].type: ability
+        players[0].heroCollector.Otch.abilityOrder[0].time: 388964
+        players[0].heroCollector.Otch.abilityOrder[0].value: AOae
+      players[0].heroCollector.Otch.abilityOrder: [Array, length: 4] Example: {"type":"ability","time":388964,"value":"AOae"}
+      players[0].heroCollector.Otch.retrainingHistory: [Array, length: 0]
+    players[0].heroCollector.Otch: [Object]
+  players[0].heroCollector: [Object]
+  players[0].heroCount: 2
+    players[0].actions.timed: [Array, length: 18] Example: 347
+    players[0].actions.assigngroup: 1212
+    players[0].actions.rightclick: 1443
+    players[0].actions.basic: 221
+    players[0].actions.buildtrain: 149
+    players[0].actions.ability: 15
+    players[0].actions.item: 2
+    players[0].actions.select: 577
+    players[0].actions.removeunit: 0
+    players[0].actions.subgroup: 0
+    players[0].actions.selecthotkey: 1608
+    players[0].actions.esc: 6
+  players[0].actions: [Object]
+      players[0].groupHotkeys.0.assigned: 449
+      players[0].groupHotkeys.0.used: 440
+    players[0].groupHotkeys.0: [Object]
+      players[0].groupHotkeys.1.assigned: 306
+      players[0].groupHotkeys.1.used: 432
+    players[0].groupHotkeys.1: [Object]
+      players[0].groupHotkeys.2.assigned: 4
+      players[0].groupHotkeys.2.used: 24
+    players[0].groupHotkeys.2: [Object]
+      players[0].groupHotkeys.3.assigned: 0
+      players[0].groupHotkeys.3.used: 0
+    players[0].groupHotkeys.3: [Object]
+      players[0].groupHotkeys.4.assigned: 2
+      players[0].groupHotkeys.4.used: 118
+    players[0].groupHotkeys.4: [Object]
+      players[0].groupHotkeys.5.assigned: 1
+      players[0].groupHotkeys.5.used: 105
+    players[0].groupHotkeys.5: [Object]
+      players[0].groupHotkeys.6.assigned: 1
+      players[0].groupHotkeys.6.used: 49
+    players[0].groupHotkeys.6: [Object]
+      players[0].groupHotkeys.7.assigned: 0
+      players[0].groupHotkeys.7.used: 0
+    players[0].groupHotkeys.7: [Object]
+      players[0].groupHotkeys.8.assigned: 0
+      players[0].groupHotkeys.8.used: 0
+    players[0].groupHotkeys.8: [Object]
+      players[0].groupHotkeys.9.assigned: 449
+      players[0].groupHotkeys.9.used: 440
+    players[0].groupHotkeys.9: [Object]
+  players[0].groupHotkeys: [Object]
+  players[0].resourceTransfers: [Array, length: 0]
+  players[0]._currentlyTrackedAPM: 0
+  players[0]._retrainingMetadata: [Object]
+  players[0]._lastRetrainingTime: 0
+  players[0]._lastActionWasDeselect: false
+  players[0].currentTimePlayed: 1044516
+  players[0].apm: 303
+players: [Array, length: 2] Example: {"actions":{"timed":[347,247,219,269,370,301,324,373,351,316,295,376,296,290,261,226,283,136],"assigngroup":1212,"rightclick":1443,"basic":221,"buildtrain":149,"ability":15,"item":2,"select":577,"remo
+matchup: HvO
+creator: FLO
+type: 1on1
+  chat[0].playerName: BeScared#11983
+  chat[0].playerId: 2
+  chat[0].message: is there anyway to watch replays on this?
+  chat[0].mode: All
+  chat[0].timeMS: 33907
+chat: [Array, length: 20] Example: {"playerName":"BeScared#11983","playerId":2,"message":"is there anyway to watch replays on this?","mode":"All","timeMS":33907}
+  apm.trackingInterval: 60000
+apm: [Object]
+  map.path: maps\W3Champions\w3c_240409_1839_LastRefuge_v1.5.w3x
+  map.file: w3c_240409_1839_LastRefuge_v1.5.w3x
+  map.checksum: ffffffff
+  map.checksumSha1: 8af2715df78820062846677f4295db95c9321c8b
+map: [Object]
+version: 2.00
+buildNumber: 6115
+duration: 1045210
+expansion: true
+  settings.referees: false
+  settings.observerMode: FULL
+  settings.fixedTeams: true
+  settings.fullSharedUnitControl: false
+  settings.alwaysVisible: false
+  settings.hideTerrain: false
+  settings.mapExplored: false
+  settings.teamsTogether: true
+  settings.randomHero: false
+  settings.randomRaces: false
+  settings.speed: 2
+settings: [Object]
+parseTime: 63
+winningTeamId: 1

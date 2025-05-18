@@ -1,0 +1,119 @@
+# W3ReplayVision
+
+> **All scripts and outputs are fully portable. Just unzip and run from any location!**
+
+## Quick Start
+
+1. **Install Requirements**
+    - [Node.js](https://nodejs.org/) (LTS recommended)
+    - Python 3.x
+    - Python packages:
+      ```sh
+      pip install pygame
+      ```
+
+2. **Extract the Project**
+    - Unzip the entire `W3ReplayVision` folder anywhere you want.
+
+3. **Analyze a Replay**
+    - Double-click `W3ReplayVision_Reparser.bat` *(Windows)*
+    - Or run in a terminal:
+      ```sh
+      python W3ReplayVision_Reparser.py
+      ```
+    - Follow the prompts to select a Warcraft III `.w3g` replay file.
+
+---
+
+## Main Project Tools
+
+### 1. `w3replayvision_export.js`
+**Purpose:**  
+Node.js script to parse Warcraft III `.w3g` replay files and export detailed build order CSVs (including heroes and abilities).
+
+- **Output:** CSV files are saved in the `./parsed_replays` folder (relative to the project root).
+- **How to use:** See usage instructions and CLI options in the script header.
+
+---
+
+### 2. `w3replayvision_visualizer.py`
+**Purpose:**  
+Modern, interactive build order visualizer for the generated CSV files.
+
+- **How to use:**  
+  - Can be run standalone, **or**
+  - Is automatically launched by the main pipeline script (see below).
+
+---
+
+### 3. `W3ReplayVision_Reparser.py`
+**Purpose:**  
+Main Python pipeline for one-click analysis:
+- Launches the Node.js parser.
+- Locates the newest CSV output.
+- Starts the visualizer.
+
+**Who should use this?**  
+Recommended entry point for most users.  
+Just run this script and follow the prompts!
+
+---
+
+### 4. `W3ReplayVision_Reparser.bat`
+**Purpose:**  
+Windows batch file for launching the entire analysis pipeline with a double-click.
+
+- **Features:**
+    - Fully portable—no hard-coded paths.
+    - Works from any folder.
+
+---
+
+## Project Structure
+W3ReplayVision/
+│
+├── Icons/                   # All unit/building/item icon images (.webp)
+├── parsed_replays/          # Auto-generated build order CSVs
+├── icon_map.csv             # Maps in-game names to icon paths
+│
+├── w3replayvision_export.js
+├── w3replayvision_visualizer.py
+├── W3ReplayVision_Reparser.py
+├── W3ReplayVision_Reparser.bat
+├── package.json
+└── README.md
+
+
+
+---
+
+## FAQ
+
+**Q: Do I need Warcraft III installed?**  
+A: No, you only need `.w3g` replay files.
+
+**Q: Does it work on Mac/Linux?**  
+A: Yes! Just run the Python scripts from a terminal. (No `.bat` support on non-Windows.)
+
+**Q: My icons aren’t showing up?**  
+A: Make sure your `icon_map.csv` paths match the `Icons/` folder. Use relative paths like `Icons/BTNGrunt.webp`.
+
+---
+
+## Screenshots
+
+*(Add some screenshots here!)*
+
+---
+
+## Credits
+
+- Warcraft III replay parsing powered by [w3gjs](https://github.com/your-fork-or-main-url).
+- Icons sourced from [Wowpedia](https://wowpedia.fandom.com/wiki).
+
+---
+
+*W3ReplayVision is an open-source project for the Warcraft III community. Enjoy!*
+
+
+

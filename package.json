@@ -1,0 +1,17 @@
+{
+  "name": "w3replayvision",
+  "version": "1.0.0",
+  "main": "war3_export_build_order.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-file-dialog": "^1.0.3",
+    "w3gjs": "file:../w3gjs"
+  }
+}

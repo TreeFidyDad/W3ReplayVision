@@ -204,7 +204,7 @@ const NAME_MAP = {
   // ITEMS ---------------------------------------------------------------------
   bspd: 'Boots of Speed',
   cnob: 'Circlet of Nobility',
-  dust: 'Dust',
+  dust: 'Dust of Appearance',
   hslv: 'Healing Salves',
   ocor: 'Orb of Corruption',
   oli2: 'Orb of Lightning',

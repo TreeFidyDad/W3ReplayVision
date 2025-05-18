@@ -23,6 +23,12 @@
       ```
     - Follow the prompts to select a Warcraft III `.w3g` replay file.
 
+4. **(If cloning from GitHub) Initialize submodules**
+    ```sh
+    git submodule update --init --recursive
+    ```
+    This will fetch the `w3gjs` dependency required by the Node.js parser.
+
 ---
 
 ## Main Project Tools
@@ -70,11 +76,14 @@ Windows batch file for launching the entire analysis pipeline with a double-clic
 ---
 
 ## Project Structure
+
+```plaintext
 W3ReplayVision/
 │
 ├── Icons/                   # All unit/building/item icon images (.webp)
 ├── parsed_replays/          # Auto-generated build order CSVs
-├── icon_map.csv             # Maps in-game names to icon paths
+├── dev-tools/               # Helper scripts and analysis utilities
+├── icon_map.csv             # Maps in-game names to icon paths (Alpha need more!!!)
 │
 ├── w3replayvision_export.js
 ├── w3replayvision_visualizer.py
@@ -82,6 +91,10 @@ W3ReplayVision/
 ├── W3ReplayVision_Reparser.bat
 ├── package.json
 └── README.md
+
+
+```
+
 
 
 
@@ -98,13 +111,28 @@ A: Yes! Just run the Python scripts from a terminal. (No `.bat` support on non-W
 **Q: My icons aren’t showing up?**  
 A: Make sure your `icon_map.csv` paths match the `Icons/` folder. Use relative paths like `Icons/BTNGrunt.webp`.
 
----
+### Note on `parsed_replays/`
 
-## Screenshots
-
-*(Add some screenshots here!)*
+The `parsed_replays/` folder stores CSV files generated from replay parsing. Over time, this folder can grow large. The `W3ReplayVision_Reparser.py` script will prompt you to optionally clean up old CSV files to keep things tidy.
 
 ---
+
+## Version Control Recommendations
+
+If using Git or other VCS, it is recommended to ignore the following folders:
+
+- `node_modules/` — Node dependencies
+
+Add them to your `.gitignore` to avoid committing bulky or generated files.
+
+### Git Submodules
+
+This project uses a Git submodule for the `w3gjs` parser dependency. If you clone the repository, run:
+
+```sh
+git submodule update --init --recursive
+```
+to fetch the submodule content before running the scripts.
 
 ## Credits
 

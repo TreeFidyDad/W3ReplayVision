@@ -1,4 +1,87 @@
 Name,Path
+Tree of Life,Icons/BTNTreeOfLife.webp
+Wisp,Icons/BTNWisp.webp
+Natures Blessings,Icons/BTNNaturesBlessing.webp
+Backpack,Icons/BTNPackBeast.webp
+Tree of Ages,Icons/BTNTreeOfAges.webp
+Tree of Eternity,Icons/BTNTreeOfEternity.webp
+Moon Well,Icons/BTNMoonWell.webp
+Ancient of War,Icons/BTNAncientOfTheEarth.webp
+Archer,Icons/BTNArcher.webp
+Huntress,Icons/BTNHuntress.webp
+Glaive,Icons/BTNBallistaOld.webp
+Improved Bows,Icons/BTNImprovedBows.webp
+Sentinel,Icons/BTNSentinel.webp
+Marksmanship,Icons/BTNMarksmanship.webp
+Moon Glaive,Icons/BTNUpgradeMoonGlaive.webp
+Vorpal Blades,Icons/BTNImpalingBolt.webp
+Huntress Hall,Icons/BTNHuntersHall.webp
+Strength of the Moon,Icons/BTNStrengthOfTheMoon.webp
+Improved Strength of the Moon,Icons/BTNImprovedStrengthOfTheMoon.webp
+Advanced Strength of the Moon,Icons/BTNAdvancedStrengthOfTheMoon.webp
+Moon Armor,Icons/BTNMoonArmor.webp
+Improved Moon Armor,Icons/BTNImprovedMoonArmor.webp
+Advanced Moon Armor,Icons/BTNAdvancedMoonArmor.webp
+Strength of the Wild,Icons/BTNStrengthOfTheWild.webp
+Improved Strength of the Wild,Icons/BTNImprovedStrengthOfTheWild.webp
+Advanced Strength of the Wild,Icons/BTNAdvancedStrengthOfTheWild.webp
+Reinforced Hides,Icons/BTNReinforcedHides.webp
+Improved Reinforced Hides,Icons/BTNImprovedReinforcedHides.webp
+Advanced Reinforced Hides,Icons/BTNAdvancedReinforcedHides.webp
+Ultravision,Icons/BTNUltravision.webp
+Well Spring,Icons/BTNWellSpring.webp
+Ancient Protector,Icons/BTNTreant.webp
+Ancient of Wind,Icons/BTNAncientOfTheMoon.webp
+Hippogryph,Icons/BTNHippogriff.webp
+Druid of the Talon,Icons/BTNDruidOfTheTalon.webp
+Faerie Dragon,Icons/BTNFaerieDragon.webp
+Mark of the Talon,Icons/BTNEnchantedCrows.webp
+Druid of the Talon Adept Training,Icons/BTNDOTAdeptTraining.webp
+Druid of the Talon Master Training,Icons/BTNDOTMasterTraining.webp
+Ancient of Lore,Icons/BTNAncientOfLore.webp
+Dryad,Icons/BTNDryad.webp
+Druid of the Claw,Icons/BTNDruidOfTheClaw.webp
+Mountain Giant,Icons/BTNMountainGiant.webp
+Abolish Magic,Icons/BTNDryadDispelMagicOff.webp
+Mark of the Claw,Icons/BTNEnchantedBears.webp
+Druid of the Claw Adept Training,Icons/BTNDOCAdeptTraining.webp
+Druid of the Claw Master Training,Icons/BTNDOCMasterTraining.webp
+Hardened Skin,Icons/BTNHardenedSkin.webp
+Resistant Skin,Icons/BTNResistantSkin.webp
+Altar of Elders,Icons/BTNAltarOfElders.webp
+Keeper of the Grove,Icons/BTNKeeperOfTheGrove.webp
+Keeper of the Grove: Entangling Roots,Icons/BTNEntanglingRoots.webp
+Keeper of the Grove: Force of Nature,Icons/BTNEnt.webp
+Keeper of the Grove: Thorns Aura,Icons/PASBTNThorns.webp
+Keeper of the Grove: Tranquility,Icons/BTNTranquility.webp
+Priestess of the Moon,Icons/BTNPriestessOfTheMoon.webp
+Priestess of the Moon: Scout,Icons/BTNScout.webp
+Priestess of the Moon: Searing Arrows,Icons/BTNsearingarrows.webp
+Priestess of the Moon: Trueshot Aura,Icons/BTNTrueshot.webp
+Priestess of the Moon: Starfall,Icons/BTNstarfall.webp
+Demon Hunter,Icons/BTNHeroDemonHunter.webp
+Demon Hunter: Mana Burn,Icons/BTNManaBurn.webp
+Demon Hunter: Immolation,Icons/BTNImmolationOn.webp
+Demon Hunter: Evasion,Icons/PASBTNEvasion.webp
+Demon Hunter: Metamorphosis,Icons/BTNMetamorphosis.webp
+Warden,Icons/BTNHeroWarden.webp
+Warden,Icons: Fan of Knives/BTNFanOfKnives.webp
+Warden,Icons: Blink/BTNBlink.webp
+Warden,Icons: Shadow Strike/BTNShadowStrike.webp
+Warden,Icons: Vengeance/BTNSpiritOfVengeance.webp
+Chimaera Roost,Icons/BTNChimaeraRoost.webp
+Chimaera,Icons/BTNChimaera.webp
+Corrosive Breath,Icons/BTNCorrosiveBreath.webp
+Corrosive Breath,Icons/BTNAncientOfWonders.webp
+Moonstone,Icons/BTNMoonStone.webp
+Lesser Clarity Potion,Icons/BTNLesserClarityPotion.webp
+Dust of Appearance,Icons/BTNDustOfAppearance.webp
+Potion of Healing,Icons/BTNPotionGreenSmall.webp
+Potion of Mana,Icons/BTNPotionBlueSmall.webp
+Scroll of Town Porta,Icons/BTNScrollTP.webp
+Staff of Preservation,Icons/BTNStaffOfPreservation.webp
+Orb of Venom,Icons/BTNOrbOfVenom.webp
+Anti-magic Potion,Icons/BTNSnazzyPotion.webp
 Peon,Icons/BTNPeon.webp
 Peasant,Icons/BTNPeasant.webp
 Altar of Storms,Icons/BTNAltarOfStorms.webp
@@ -29,7 +112,6 @@ Watch Tower,Icons/BTNOrcTower.webp
 Steel Unit Armor,Icons/BTNSteelArmor.webp
 Scroll of Healing,Icons/BTNScrollOfHealing.webp
 Bat Rider,Icons/BTNTrollBatRider.webp
-Scroll of Town Portal,Icons/BTNScrollTP.webp
 Ensnare,Icons/BTNEnsnare.webp
 Orb of Lightning,Icons/BTNOrbOfLightning.webp
 Great Hall,Icons/BTNGreatHall.webp
@@ -40,36 +122,45 @@ Berserker Upgrade,Icons/BTNHeadHunterBerserker.webp
 Blademaster: Wind Walk,Icons/BTNWindWalkOn.webp
 Scroll of Speed,Icons/BTNScrollOfHaste.webp
 Grunt,Icons/BTNGrunt.webp
-Wisp,Icons/BTNWisp.webp
-Altar of Elders,Icons/BTNAltarOfElders.webp
-Moon Well,Icons/BTNMoonWell.webp
-Ancient of War,Icons/BTNAncientOfTheEarth.webp
-Archer,Icons/BTNArcher.webp
-Demon Hunter,Icons/BTNHeroDemonHunter.webp
 Healing Salves,Icons/BTNHealingSalve.webp
 Blademaster,Icons/BTNHeroBlademaster.webp
-Demon Hunter: Immolation,Icons/BTNImmolationOn.webp
 Circlet of Nobility,Icons/BTNCirclet.webp
-Tree of Life,Icons/BTNTreeOfLife.webp
-Tree of Ages,Icons/BTNTreeOfAges.webp
-Demon Hunter: Evasion,Icons/PASBTNEvasion.webp
 Naga,Icons/BTNNagaSeaWitch.webp
 Naga: Cold Arrow,Icons/BTNColdArrowsOn.webp
 Pillage,Icons/BTNPillage.webp
-Dust,Icons/BTNDustOfAppearance.webp
 Blademaster: Critical Strike,Icons/PASBTNCriticalStrike.webp
-Potion of Healing,Icons/BTNPotionGreenSmall.webp
-Huntress Hall,Icons/BTNHuntersHall.webp
-Improved Bows,Icons/BTNImprovedBows.webp
-Natures Blessings,Icons/BTNNaturesBlessing.webp
 Naga: Forked Lightning,Icons/BTNMonsoon.webp
 Potion of Invisibility,Icons/BTNLesserInvisibility.webp
-Lesser Clarity Potion,Icons/BTNLesserClarityPotion.webp
-Moonstone,Icons/BTNMoonStone.webp
-
-
-
-
-
-
-
+Peasant,Icons/BTNPeasant.webp
+Altar of Kings,Icons/BTNAltarOfKings.webp
+Farm,Icons/BTNFarm.webp
+Footman,Icons/BTNFootman.webp
+Barracks(Hu),Icons/BTNHumanBarracks.webp
+Archmage,Icons/BTNHeroArchMage.webp
+Archmage: Water Elemental,Icons/BTNSummonWaterElemental.webp
+Archmage: Brilliance Aura,Icons/PASBTNBrilliance.webp
+Town Hall,Icons/BTNTownHall.webp
+Scout Tower,Icons/BTNHumanWatchTower.webp
+Arcane Tower,Icons/BTNArcaneTower.webp
+Keep,Icons/BTNKeep.webp
+Tauren Totem,Icons/BTNTaurenTotem.webp
+Boots of Speed,Icons/BTNBootsOfSpeed.webp
+Forest Troll Berserker,Icons/BTNForestTroll.webp
+Forest Troll Shadow Priest,Icons/BTNForestTrollShadowPriest.webp
+Staff of Teleportation,Icons/BTNStaffOfTeleportation.webp
+Blacksmith,Icons/BTNBlacksmith.webp
+Arcane Vault,Icons/BTNArcaneVault.webp
+Defend,Icons/BTNDefend.webp
+Guard Tower,Icons/BTNGuardTower.webp
+Shadow Hunter,Icons/BTNShadowHunter.webp
+Shadow Hunter: Healing Wave,Icons/BTNHealingWave.webp
+Shadow Hunter: Hex,Icons/BTNHex.webp
+Shadow Hunter: Serpent Ward,Icons/BTNSerpentWard.webp
+Spirit Walker,Icons/BTNSpiritWalker.webp
+Lumber Mill,Icons/BTNHumanLumberMill.webp
+Improved Lumber Harvesting,Icons/BTNHumanLumberUpgrade1.webp
+Arcane Sanctum,Icons/BTNArcaneSanctum.webp
+Scroll of Regeneration,Icons/BTNScrollOfRegenerationGreen.webp
+Iron Plating,Icons/BTNHumanArmorUpOne.webp
+Long Rifles,Icons/BTNDwarvenLongRifle.webp
+Priest,Icons/BTNPriest_29.webp

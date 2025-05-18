@@ -91,10 +91,12 @@ const NAME_MAP = {
   hkni: 'Knight',
   hpea: 'Peasant',
   hrif: 'Rifleman',
+  hmpr: 'Priest',
+
   // Buildings
   halt: 'Altar of Kings',
   hatw: 'Arcane Tower',
-  hbar: 'Barracks',
+  hbar: 'Barracks(Hu)',
   hbla: 'Blacksmith',
   hcas: 'Castle',
   hhou: 'Farm',
@@ -139,7 +141,7 @@ const NAME_MAP = {
   emtg: 'Mountain Giant',
   ewsp: 'Wisp',
   nftb: 'Forest Troll Berserker',
-  nfsp: 'Foreest Troll Shadow Priest',
+  nfsp: 'Forest Troll Shadow Priest',
   edry: 'dryad',
   ebal: 'Glaive',
   
@@ -176,6 +178,10 @@ const NAME_MAP = {
   Rhri: 'Iron Plating',
   Rhpt: 'Precision Strike',
   Rhar: 'Animal War Training',
+  Rhpm: 'Backpack',
+  Rhde: 'Defend',
+  Rhlh: 'Improved Lumber Harvesting',
+  
   // Undead
   Rume: 'Unholy Strength',
   Rucr: 'Creature Attack',
@@ -215,6 +221,7 @@ const NAME_MAP = {
   spro: 'Scroll of Protection',
   pinv: 'Potion of Invisibility',
   moon: 'Moonstone',
+  stel: 'Staff of Teleportation',
 
 };
 
@@ -237,6 +244,7 @@ const ABILITY_MAP = {
   AUdc: 'Death Coil', AUau: 'Unholy Aura', AUfn: 'Frost Nova', AUdr: 'Dark Ritual',
   ANab: 'Acid Bomb', ANhs: 'Healing Spray', ANba: 'Black Arrow', ANsi: 'Silence', ANfa: 'Cold Arrow',
   ANfl: 'Forked Lightning', AHhb: 'Heal', AHfs: 'Flame Strike', AHad: 'Divine Armor',
+  AHwe: 'Water Elemental', AHab: 'Brilliance Aura',
 };
 
 // -----------------------------------------------------------------------------

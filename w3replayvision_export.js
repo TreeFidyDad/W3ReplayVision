@@ -53,10 +53,40 @@ async function pickReplayViaDialog() {
 // Updated NAME_MAP
 const NAME_MAP = {
   // ===========================================================================
+  // HUMAN ---------------------------------------------------------------------
+  // Units
+  hfoo: 'Footman',
+  hkni: 'Knight',
+  hpea: 'Peasant',
+  hrif: 'Rifleman',
+  hmpr: 'Priest',
+  hsor: 'Sorceress',
+  hspt: 'Spell Breaker',
+  hgyr: 'Flying Machine',
+  hmtm: 'Mortar Team',
+
+  // Buildings
+  halt: 'Altar of Kings',
+  hatw: 'Arcane Tower',
+  hbar: 'Barracks(Hu)',
+  hbla: 'Blacksmith',
+  hcas: 'Castle',
+  hhou: 'Farm',
+  hkee: 'Keep',
+  hlum: 'Lumber Mill',
+  hars: 'Arcane Sanctum',
+  hvlt: 'Arcane Vault',
+  hwtw: 'Scout Tower',
+  hgtw: 'Guard Tower',
+  htow: 'Town Hall',
+  harm: 'Workshop',
+  hctw: 'Castle',
+
+  // ===========================================================================
   // ORC -----------------------------------------------------------------------
   // Units
   nzep: 'Zepplin',
-  ngir: 'Shredder',
+  ngir: 'Goblin Shredder',
   opeo: 'Peon',
   ogru: 'Grunt',
   ohun: 'Troll Headhunter',
@@ -84,29 +114,7 @@ const NAME_MAP = {
   ovln: 'Voodoo Lounge',
   osld: 'Spirit Lodge',        // alias (old parser tag)
 
-  // ===========================================================================
-  // HUMAN ---------------------------------------------------------------------
-  // Units
-  hfoo: 'Footman',
-  hkni: 'Knight',
-  hpea: 'Peasant',
-  hrif: 'Rifleman',
-  hmpr: 'Priest',
-
-  // Buildings
-  halt: 'Altar of Kings',
-  hatw: 'Arcane Tower',
-  hbar: 'Barracks(Hu)',
-  hbla: 'Blacksmith',
-  hcas: 'Castle',
-  hhou: 'Farm',
-  hkee: 'Keep',
-  hlum: 'Lumber Mill',
-  hars: 'Arcane Sanctum',
-  hvlt: 'Arcane Vault',
-  hwtw: 'Scout Tower',
-  hgtw: 'Guard Tower',
-  htow: 'Town Hall',
+  
 
   // ===========================================================================
   // UNDEAD --------------------------------------------------------------------
@@ -174,13 +182,17 @@ const NAME_MAP = {
   Ropg: 'Pillage',
   // Human
   Rhla: 'Long Rifles',
-  Rhra: 'Gunpowder',
+  Rhra: 'Black Gunpowder',
   Rhri: 'Iron Plating',
-  Rhpt: 'Precision Strike',
-  Rhar: 'Animal War Training',
+  Rhme: 'Iron Forged Swords',
+  Rhar: 'Iron Plating',
   Rhpm: 'Backpack',
   Rhde: 'Defend',
   Rhlh: 'Improved Lumber Harvesting',
+  Rhst: 'Sorceress Training',
+  Rhpt: 'Priest Training',
+  Rhse: 'Magic Sentry',
+  Rhfs: 'Fragmentation Shards',
   
   // Undead
   Rume: 'Unholy Strength',
@@ -222,6 +234,8 @@ const NAME_MAP = {
   pinv: 'Potion of Invisibility',
   moon: 'Moonstone',
   stel: 'Staff of Teleportation',
+  tret: 'Tome of Retraining',
+  ssan: 'Staff of Sanctuary',
 
 };
 
@@ -235,16 +249,32 @@ const HERO_MAP = {
 };
 
 const ABILITY_MAP = {
+   // Night Elf
+    // KOTG
+    // POTM
+    // DH
+    // Warden
+  // Human
+      ADds: 'Divine Shield', // Pally 
+      AHbz: 'Blizzard', // Archmage
+      AHtb: 'Storm Bolt', AHtc: 'Thunder Clap', // MK
+      // Blood Mage 
+    
+      
+    
+       AHdr: 'Siphon Mana', AHwe: 'Water Elemental', AHab: 'Brilliance Aura',
+   // Undead
+   // Orc
   AOwk: 'Wind Walk', AOcr: 'Critical Strike', AOmi: 'Mirror Image', AObl: 'Bladestorm',
   AOhx: 'Hex', AOsw: 'Serpent Ward', AOhw: 'Healing Wave', AObv: 'Big Bad Voodoo',
   AOfs: 'Far Sight', AOsf: 'Feral Spirit', AOcl: 'Chain Lightning',
-  AOws: 'War Stomp', AOae: 'Endurance Aura', ADds: 'Divine Shield', AHdr: 'Drain Mana',
+  AOws: 'War Stomp', AOae: 'Endurance Aura', 
   AEmb: 'Mana Burn', AEim: 'Immolation', AEev: 'Evasion', AEme: 'Metamorphosis',
   AEer: 'Entangling Roots', AEah: 'Thorns Aura', AEfn: 'Force of Nature', AEtr: 'Tranquility',
   AUdc: 'Death Coil', AUau: 'Unholy Aura', AUfn: 'Frost Nova', AUdr: 'Dark Ritual',
   ANab: 'Acid Bomb', ANhs: 'Healing Spray', ANba: 'Black Arrow', ANsi: 'Silence', ANfa: 'Cold Arrow',
   ANfl: 'Forked Lightning', AHhb: 'Heal', AHfs: 'Flame Strike', AHad: 'Divine Armor',
-  AHwe: 'Water Elemental', AHab: 'Brilliance Aura',
+  
 };
 
 // -----------------------------------------------------------------------------

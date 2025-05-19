@@ -166,6 +166,19 @@ def create_pygame_with_multi_replay():
     screen = pygame.display.set_mode((min_width, min_height), pygame.RESIZABLE)
     pygame.display.set_caption("Warcraft III Replay Visualization - Multi-Replay Compare")
 
+    # --- Background image (relative, project-root safe) ---
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    BACKGROUND_IMG_PATH = os.path.join(script_dir, "Images", "1920x1080-508189-The-game-Warcraft-Blizzard-Art-Paladin-Arthas.jpg")
+    OVERLAY_ALPHA = 180
+
+    background_img = None
+    bg_raw = None
+    if os.path.exists(BACKGROUND_IMG_PATH):
+        bg_raw = pygame.image.load(BACKGROUND_IMG_PATH).convert()
+        background_img = pygame.transform.smoothscale(bg_raw, (min_width, min_height))
+    else:
+        print("Background image not found!")
+
     img_cache = {}
     unit_creation_data_all = []
     player_color_map_all = {}
@@ -230,6 +243,18 @@ def create_pygame_with_multi_replay():
         next_icon_pad = int(7 * scale)
         player_gap = int(20*scale)
 
+        # --- Background and overlay (NEW, replaces screen.fill(BG)) ---
+        if background_img:
+            if background_img.get_width() != width or background_img.get_height() != height:
+                background_img = pygame.transform.smoothscale(bg_raw, (width, height))
+            screen.blit(background_img, (0, 0))
+        else:
+            screen.fill(BG)
+
+        overlay = pygame.Surface((width, height), pygame.SRCALPHA)
+        overlay.fill((0, 0, 0, OVERLAY_ALPHA))
+        screen.blit(overlay, (0, 0))
+
         # --- Dropdown button (top right) ---
         dropdown_button_w = int(260 * scale)
         dropdown_button_h = int(48 * scale)
@@ -245,8 +270,6 @@ def create_pygame_with_multi_replay():
 
         # Visible players are those selected in dropdown and enabled
         visible_players = [p for p in all_players if player_enabled.get(p, True) and p in dropdown_selected_players]
-
-        screen.fill(BG)
 
         # --- EVENTS ---
         dt = clock.tick(60) / 1000

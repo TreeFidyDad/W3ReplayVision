@@ -150,7 +150,7 @@ const NAME_MAP = {
   ewsp: 'Wisp',
   nftb: 'Forest Troll Berserker',
   nfsp: 'Forest Troll Shadow Priest',
-  edry: 'dryad',
+  edry: 'Dryad',
   ebal: 'Glaive',
   
   // Buildings
@@ -201,7 +201,7 @@ const NAME_MAP = {
   Rusp: 'Destroyer Form',
   Rugf: "Unholy Frenzy",
   // Night Elf
-  Redc: 'Bear Adept Training',
+  Redc: 'Druid of the Claw Adept Training',
   Resi: 'Resistant Skin',
   Rehs: 'Hardened Skin',
   Rers: 'Rejuvenation',
@@ -209,7 +209,7 @@ const NAME_MAP = {
   Reeb: 'Bear Form',
   Reib: 'Improved Bows',
   Renb: 'Natures Blessings',
-  spre: 'Resistant Skin Upgrade', // alias  
+  spre: 'Resistant Skin', // alias  
   
 
   // ===========================================================================

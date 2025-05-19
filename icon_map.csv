@@ -167,68 +167,170 @@ Scroll of Regeneration,Icons/BTNScrollOfRegenerationGreen.webp
 Mechanical Critter,Icons/BTNMechanicalCritter.webp
 Ivory Tower,Icons/BTNHumanWatchTower.webp
 Staff of Sanctuary,Icons/BTNStaffOfSanctuary.webp
-Peon,Icons/BTNPeon.webp
-Altar of Storms,Icons/BTNAltarOfStorms.webp
+Necropolis,Icons/BTNNecropolis.webp
+Acolyte,Icons/BTNAcolyte.webp
+Halls of the Dead,Icons/BTNHallOfTheDead.webp
+Black Citadel,Icons/BTNBlackCitadel.webp
+Crypt,Icons/BTNCrypt.webp
+Ghoul,Icons/BTNGhoul.webp
+Crypt Fiend,Icons/BTNCryptFiend.webp
+Gargoyle,Icons/BTNGargoyle.webp
+Cannibalize,Icons/BTNCannibalize.webp
+Ghoul Frenzy,Icons/BTNGhoulFrenzy.webp
+Web,Icons/BTNWeb.webp
+Burrow,Icons/BTNCryptFiendBurrow.webp
+Stone Form,Icons/BTNStoneForm.webp
+Graveyard,Icons/BTNGraveYard.webp
+Unholy Strength,Icons/BTNUnholyStrength.webp
+Improved Unholy Strength,Icons/BTNImprovedUnholyStrength.webp
+Advanced Unholy Strength,Icons/BTNAdvancedUnholyStrength.webp
+Unholy Armor,Icons/BTNUnholyArmor.webp
+Improved Unholy Armor,Icons/BTNImprovedUnholyArmor.webp
+Advanced Unholy Armor,Icons/BTNAdvancedUnholyArmor.webp
+Creature Attack,Icons/BTNCreatureAttack.webp
+Improved Creature Attack,Icons/BTNImprovedCreatureAttack.webp
+Advanced Creature Attack,Icons/BTNAdvancedCreatureAttack.webp
+Creature Carapace,Icons/BTNCreatureCarapace.webp
+Improved Creature Carapace,Icons/BTNImprovedCreatureCarapace.webp
+Advanced Creature Carapace,Icons/BTNAdvancedCreatureCarapace.webp
+Ziggurat,Icons/BTNZiggurat.webp
+Spirit Tower,Icons/BTNZigguratUpgrade.webp
+Nerubian Tower,Icons/BTNFrostTower.webp
+Temple of the Damned,Icons/BTNTempleOfTheDamned.webp
+Necromancer,Icons/BTNNecromancer.webp
+Banshee,Icons/BTNBanshee.webp
+Necromancer Adept Training,Icons/BTNNecromancerAdept.webp
+Necromancer Master Training,Icons/BTNNecromancerMaster.webp
+Banshee Adept Training,Icons/BTNBansheeAdept.webp
+Banshee Master Training,Icons/BTNBansheeMaster.webp
+Skeletal Mastery,Icons/BTNSkeletonMage.webp
+Slaughterhouse,Icons/BTNSlaughterHouse.webp
+Meat Wagon,Icons/BTNMeatWagon.webp
+Abomination,Icons/BTNAbomination.webp
+Obsidian Statue,Icons/BTNObsidianStatue.webp
+Exhume Corpses,Icons/BTNExhumeCorpses.webp
+Disease Cloud,Icons/BTNPlagueCloud.webp
+Destroyer Form,Icons/BTNDestroyer.webp
+Altar of Darkness,Icons/BTNAltarOfDarkness.webp
+Death Knight,Icons/BTNHeroDeathKnight.webp
+Death Knight: Death Coil,Icons/BTNDeathCoil.webp
+Death Knight: Death Pact,Icons/BTNDeathPact.webp
+Death Knight: Unholy Aura,Icons/PASBTNUnholyAura.webp
+Death Knight: Animate Dead,Icons/BTNAnimateDead.webp
+Lich,Icons/BTNLichVersion2.webp
+Lich: Frost Nova,Icons/BTNGlacier.webp
+Lich: Frost Armor,Icons/BTNFrostArmorOff.webp
+Lich: Dark Ritual,Icons/BTNDarkRitual.webp
+Lich: Death And Decay,Icons/BTNDeathAndDecay.webp
+Dreadlord,Icons/BTNHeroDreadLord.webp
+Dreadlord: Carrion ,Icons/BTNCarrionSwarm.webp
+Dreadlord: Sleep,Icons/BTNSleep.webp
+Dreadlord: Vampiric Aura,Icons/PASBTNVampiricAura.webp
+Dreadlord: Inferno,Icons/BTNInfernal.webp
+Crypt Lord,Icons/BTNHeroCryptLord.webp
+Crypt Lord: Impale,Icons/BTNImpale.webp
+Crypt Lord: Spiked Carapace,Icons/PASBTNThornShield.webp
+Crypt Lord: Carrion Beetles,Icons/BTNCarrionScarabsOff.webp
+Crypt Lord: Locust Swarm,Icons/BTNLocustSwarm.webp
+Boneyard,Icons/BTNBoneYard.webp
+Frost Wyrm,Icons/BTNFrostWyrm.webp
+Freezing Breath,Icons/BTNFreezingBreath.webp
+Sacrificial Pit,Icons/BTNSacrificialPit.webp
+Sacrifice,Icons/BTNSacrifice.webp
+Haunted Gold Mine,Icons/BTNHauntedMine.webp
+Tomb of Relics,Icons/BTNTombOfRelics.webp
+Rod of Necromancy,Icons/BTNRodOfNecromancy.webp
+Sacrificial Skull,Icons/BTNSacrificialSkull.webp
+Ritual Dagger,Icons/BTNSacrificialDagger.webp
+Orb of Corruption,Icons/BTNOrbOfCorruption.webp
+Great Hall,Icons/BTNGreatHall.webp
+Stronghold,Icons/BTNStronghold.webp
+Fortress,Icons/BTNFortress.webp
+Peon,Icon90s/BTNPeon.webp
+Pillage,Icons/BTNPillage.webp
+Barracks,Icons/BTNBarracks.webp
+Grunt,Icons/BTNGrunt.webp
 Troll Headhunter,Icons/BTNHeadhunter.webp
+Demolisher,Icons/BTNDemolisher.webp
+Troll Berserker,Icons/BTNHeadHunterBerserker.webp
+Berserker Strength,Icons/BTNBerserk.webp
+Troll Regeneration,Icons/BTNRegenerate.webp
 Burrow,Icons/BTNTrollBurrow.webp
 War Mill,Icons/BTNForge.webp
-Barracks,Icons/BTNBarracks.webp
-Stronghold,Icons/BTNStronghold.webp
-Watch Tower,Icons/BTNWatchTower.webp
-Raider,Icons/BTNRaider.webp
+Steel Melee Weapons,Icons/BTNOrcMeleeUpOne.webp
+Thorium Melee Weapons,Icons/BTNOrcMeleeUpTwo.webp
+Arcanite Melee Weapons,Icons/BTNOrcMeleeUpThree.webp
+Steel Unit Armor,Icons/BTNSteelArmor.webp
+Thorium Unit Armor,Icons/BTNThoriumArmor.webp
+Arcanite Unit Armor,Icons/BTNArcaniteArmor.webp
 Steel Ranged Weapons,Icons/BTNSteelRanged.webp
-Spirit Lodge,Icons/BTNSpiritLodge.webp
-Beastiary,Icons/BTNBeastiary.webp
+Thorium Ranged Weapons,Icons/BTNThoriumRanged.webp
+Arcanite Ranged Weapons,Icons/BTNArcaniteRanged.webp
+Spiked Barricades,Icons/BTNSpikedBarricades.webp
+Improved Spiked Barricades,Icons/BTNImprovedSpikedBarricades.webp
+Reinforced Defenses,Icons/BTNReinforcedBurrows.webp
+Altar of Storms,Icons/BTNAltarOfStorms.webp
+Blademaster,Icons/BTNHeroBlademaster.webp
+Blademaster: Wind Walk,Icons/BTNWindWalkOn.webp
+Blademaster: Mirror Image,Icons/BTNMirrorImage.webp
+Blademaster: Critical Strike,Icons/PASBTNCriticalStrike.webp
+Blademaster: Bladestorm,Icons/BTNWhirlwind.webp
 Far Seer,Icons/BTNHeroFarseer.webp
+Far Seer: Chain Lightning,Icons/BTNChainLightning.webp
+Far Seer: Far Sight,Icons/BTNFarSight.webp
+Far Seer: Feral Spirit,Icons/BTNSpiritWolf.webp
+Far Seer: Earthquake,Icons/BTNEarthquake.webp
 Tauren Chieftain,Icons/BTNHeroTaurenChieftain.webp
+Tauren Chieftain: Shockwave,Icons/BTNShockWave.webp
 Tauren Chieftain: War Stomp,Icons/BTNWarStomp.webp
 Tauren Chieftain: Endurance Aura,Icons/EnduranceAura.webp
-Kodo Beast,Icons/BTNKotoBeast.webp
-Far Seer: Feral Spirit,Icons/BTNSpiritWolf.webp
-Troll Regeneration,Icons/BTNRegenerate.webp
-Far Seer: Chain Lightning,Icons/BTNChainLightning.webp
-Voodoo Lounge,Icons/BTNVoodooLounge.webp
+Tauren Chieftain: Reincarnation,Icons/PASBTNReincarnation.webp
+Shadow Hunter,Icons/BTNShadowHunter.webp
+Shadow Hunter: Healing Wave,Icons/BTNHealingWave.webp
+Shadow Hunter: Hex,Icons/BTNHex.webp
+Shadow Hunter: Serpent Ward,Icons/BTNSerpentWard.webp
+Shadow Hunter: Big Bad Voodoo,Icons/BTNBigBadVoodooSpell.webp
+Beastiary,Icons/BTNBeastiary.webp
 Raider,Icons/BTNRaider.webp
-Troll Berserker,Icons/BTNHeadHunterBerserker.webp
-Watch Tower,Icons/BTNOrcTower.webp
-Steel Unit Armor,Icons/BTNSteelArmor.webp
-Scroll of Healing,Icons/BTNScrollOfHealing.webp
-Bat Rider,Icons/BTNTrollBatRider.webp
+Kodo Beast,Icons/BTNKotoBeast.webp
+Wind Rider,Icons/BTNWyvernRider.webp
+Troll Batrider,Icons/BTNTrollBatRider.webp
 Ensnare,Icons/BTNEnsnare.webp
+Upgrade War Drums,Icons/BTNDrum.webp
+Envenomed Spears,Icons/BTNEnvenomedSpear.webp
+Liquid Fire,Icons/BTNLiquidFire.webp
+Spirit Lodge,Icons/BTNSpiritLodge.webp
+Shaman,Icons/BTNShaman.webp
+Troll Witch Doctor,Icons/BTNWitchDoctor.webp
+Shaman Adept Training,Icons/BTNShamanAdept.webp
+Shaman Master Training,Icons/BTNShamanMaster.webp
+Witch Doctor Adept Training,Icons/BTNWitchDoctorAdept.webp
+Witch Doctor Master Training,Icons/BTNWitchDoctorMaster.webp
+Tauren Totem,Icons/BTNTaurenTotem.webp
+Spirit Walker,Icons/BTNSpiritWalker.webp
+Tauren,Icons/BTNTauren.webp
+Voodoo Lounge,Icons/BTNVoodooLounge.webp
+Healing Salves,Icons/BTNHealingSalve.webp
+Scroll of Speed,Icons/BTNScrollOfHaste.webp
+Watch Tower,Icons/BTNOrcTower.webp
+Watch Tower,Icons/BTNWatchTower.webp
+Scroll of Healing,Icons/BTNScrollOfHealing.webp
 Orb of Lightning,Icons/BTNOrbOfLightning.webp
-Great Hall,Icons/BTNGreatHall.webp
-Reinforced Defenses,Icons/BTNReinforcedBurrows.webp
+Tiny Great Hall,Icons/BTNGreatHall.webp
 Scroll of Protection,Icons/BTNScrollofProt.webp
 Potion of Invulnerability,Icons/BTNLesserInvulneralbility.webp
 Berserker Upgrade,Icons/BTNHeadHunterBerserker.webp
-Blademaster: Wind Walk,Icons/BTNWindWalkOn.webp
-Scroll of Speed,Icons/BTNScrollOfHaste.webp
-Grunt,Icons/BTNGrunt.webp
-Healing Salves,Icons/BTNHealingSalve.webp
-Blademaster,Icons/BTNHeroBlademaster.webp
 Circlet of Nobility,Icons/BTNCirclet.webp
 Naga,Icons/BTNNagaSeaWitch.webp
 Naga: Cold Arrow,Icons/BTNColdArrowsOn.webp
-Pillage,Icons/BTNPillage.webp
-Blademaster: Critical Strike,Icons/PASBTNCriticalStrike.webp
 Naga: Forked Lightning,Icons/BTNMonsoon.webp
 Potion of Invisibility,Icons/BTNLesserInvisibility.webp
 Peasant,Icons/BTNPeasant.webp
 Altar of Kings,Icons/BTNAltarOfKings.webp
-Tauren Totem,Icons/BTNTaurenTotem.webp
 Boots of Speed,Icons/BTNBootsOfSpeed.webp
 Forest Troll Berserker,Icons/BTNForestTroll.webp
 Forest Troll Shadow Priest,Icons/BTNForestTrollShadowPriest.webp
 Staff of Teleportation,Icons/BTNStaffOfTeleportation.webp
 Blacksmith,Icons/BTNBlacksmith.webp
-Shadow Hunter,Icons/BTNShadowHunter.webp
-Shadow Hunter: Healing Wave,Icons/BTNHealingWave.webp
-Shadow Hunter: Hex,Icons/BTNHex.webp
-Shadow Hunter: Serpent Ward,Icons/BTNSerpentWard.webp
-Spirit Walker,Icons/BTNSpiritWalker.webp
 Goblin Shredder,Icons/BTNGoblinShredder.webp
 Tome of Retraining,Icons/BTNTomeOfRetraining.webp
-
-
-
-

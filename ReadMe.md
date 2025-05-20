@@ -1,32 +1,39 @@
-## Quick Start
+# W3ReplayVision – Quick Start
 
-1. **Install Requirements**
-    - [Node.js](https://nodejs.org/) (LTS recommended)
-    - Python 3.x
-    - Python packages:
-      ```sh
-      pip install pygame
-      ```
+## 1. Install Requirements
 
-2. **Extract the Project**
-    - Unzip the entire `W3ReplayVision` folder anywhere you want **or**  
-      clone via git:
-      ```sh
-      git clone https://github.com/TreeFidyDad/W3ReplayVision.git
-      cd W3ReplayVision
-      ```
+- **Node.js (LTS):** [Download here](https://nodejs.org/)
+- **Python 3.x:** [Download here](https://www.python.org/downloads/)
+  - During installation, **check “Add Python to PATH”** (very important!)
+- **Python package:** `pygame`
 
-3. **Install Node.js Dependencies**
-    ```sh
-    npm install
-    ```
+**Install Pygame:**  
+Open **PowerShell** or **Command Prompt** and run:
+```sh
+python -m pip install pygame
+```
 
-    *(No need to install or build anything extra! `w3gjs` is bundled and pre-built.)*
+## 2. Download or Clone the Project
+Option 1: Unzip the entire W3ReplayVision folder anywhere you want
+OR
 
-4. **Analyze a Replay**
-    - Double-click `W3ReplayVision_Reparser.bat` *(Windows)*  
-    - Or run in a terminal:
-      ```sh
-      python W3ReplayVision_Reparser.py
-      ```
-    - Follow the prompts to select a Warcraft III `.w3g` replay file.
+Option 2: Clone with Git:
+
+```sh
+git clone https://github.com/TreeFidyDad/W3ReplayVision.git
+cd W3ReplayVision
+```
+
+## 3. Install Node.js Dependencies
+In a terminal:
+```sh
+npm install
+```
+
+## 4. Analyze a Replay
+Double-click W3ReplayVision_Reparser.bat (Windows)
+OR
+In a terminal:
+```sh
+python W3ReplayVision_Reparser.py
+```

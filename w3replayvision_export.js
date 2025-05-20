@@ -236,6 +236,8 @@ const NAME_MAP = {
   stel: 'Staff of Teleportation',
   tret: 'Tome of Retraining',
   ssan: 'Staff of Sanctuary',
+  mcri: 'Mechanical Critter',
+  tsct: 'Ivory Tower',
 
 };
 
@@ -255,7 +257,7 @@ const ABILITY_MAP = {
     // DH
     // Warden
   // Human
-      ADds: 'Divine Shield', // Pally 
+      AHhb: 'Holy Light', ADds: 'Divine Shield', AHad: 'Devotion Aura', // Pally 
       AHbz: 'Blizzard', // Archmage
       AHtb: 'Storm Bolt', AHtc: 'Thunder Clap', // MK
       // Blood Mage 
@@ -273,7 +275,7 @@ const ABILITY_MAP = {
   AEer: 'Entangling Roots', AEah: 'Thorns Aura', AEfn: 'Force of Nature', AEtr: 'Tranquility',
   AUdc: 'Death Coil', AUau: 'Unholy Aura', AUfn: 'Frost Nova', AUdr: 'Dark Ritual',
   ANab: 'Acid Bomb', ANhs: 'Healing Spray', ANba: 'Black Arrow', ANsi: 'Silence', ANfa: 'Cold Arrow',
-  ANfl: 'Forked Lightning', AHhb: 'Heal', AHfs: 'Flame Strike', AHad: 'Divine Armor',
+  ANfl: 'Forked Lightning',  AHfs: 'Flame Strike', 
   
 };
 

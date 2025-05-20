@@ -26,7 +26,12 @@ cd W3ReplayVision
 
 ## 3. Install Node.js Dependencies
 In a terminal:
+
+Change Directory to the W3ReplayVision folder to install the npm dependencies.
+
+
 ```sh
+cd W3ReplayVision
 npm install
 ```
 

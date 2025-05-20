@@ -1,0 +1,599 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`parses a standard 1.30.4 2on2 replay properly 1`] = `
+{
+  "actions": {
+    "ability": 163,
+    "assigngroup": 60,
+    "basic": 115,
+    "buildtrain": 124,
+    "esc": 9,
+    "item": 2,
+    "removeunit": 0,
+    "rightclick": 1433,
+    "select": 988,
+    "selecthotkey": 752,
+    "subgroup": 0,
+    "timed": [
+      144,
+      211,
+      282,
+      187,
+      203,
+      181,
+      171,
+      218,
+      208,
+      187,
+      178,
+      176,
+      213,
+      221,
+      232,
+      184,
+      180,
+      193,
+      119,
+    ],
+  },
+  "apm": 198,
+  "buildings": {
+    "order": [
+      {
+        "id": "hbla",
+        "ms": 33036,
+      },
+      {
+        "id": "halt",
+        "ms": 36623,
+      },
+      {
+        "id": "hbar",
+        "ms": 38699,
+      },
+      {
+        "id": "hhou",
+        "ms": 46647,
+      },
+      {
+        "id": "hhou",
+        "ms": 62724,
+      },
+      {
+        "id": "hhou",
+        "ms": 122755,
+      },
+      {
+        "id": "hkee",
+        "ms": 190494,
+      },
+      {
+        "id": "hhou",
+        "ms": 210930,
+      },
+      {
+        "id": "hwtw",
+        "ms": 216711,
+      },
+      {
+        "id": "hatw",
+        "ms": 248942,
+      },
+      {
+        "id": "hhou",
+        "ms": 253012,
+      },
+      {
+        "id": "hhou",
+        "ms": 254028,
+      },
+      {
+        "id": "hvlt",
+        "ms": 258542,
+      },
+      {
+        "id": "hhou",
+        "ms": 327627,
+      },
+      {
+        "id": "hhou",
+        "ms": 485876,
+      },
+      {
+        "id": "htow",
+        "ms": 504685,
+      },
+      {
+        "id": "hlum",
+        "ms": 662483,
+      },
+      {
+        "id": "hhou",
+        "ms": 673657,
+      },
+      {
+        "id": "hatw",
+        "ms": 933869,
+      },
+      {
+        "id": "htow",
+        "ms": 1065471,
+      },
+    ],
+    "summary": {
+      "halt": 1,
+      "hatw": 2,
+      "hbar": 1,
+      "hbla": 1,
+      "hhou": 9,
+      "hkee": 1,
+      "hlum": 1,
+      "htow": 2,
+      "hvlt": 1,
+      "hwtw": 1,
+    },
+  },
+  "color": "#ff0303",
+  "groupHotkeys": {
+    "0": {
+      "assigned": 1,
+      "used": 128,
+    },
+    "1": {
+      "assigned": 47,
+      "used": 283,
+    },
+    "2": {
+      "assigned": 7,
+      "used": 45,
+    },
+    "3": {
+      "assigned": 0,
+      "used": 0,
+    },
+    "4": {
+      "assigned": 1,
+      "used": 211,
+    },
+    "5": {
+      "assigned": 0,
+      "used": 0,
+    },
+    "6": {
+      "assigned": 0,
+      "used": 0,
+    },
+    "7": {
+      "assigned": 0,
+      "used": 0,
+    },
+    "8": {
+      "assigned": 2,
+      "used": 2,
+    },
+    "9": {
+      "assigned": 2,
+      "used": 83,
+    },
+  },
+  "heroes": [
+    {
+      "abilities": {
+        "AHad": 2,
+        "AHhb": 2,
+      },
+      "abilityOrder": [
+        {
+          "time": 166550,
+          "type": "ability",
+          "value": "AHhb",
+        },
+        {
+          "time": 226152,
+          "type": "ability",
+          "value": "AHad",
+        },
+        {
+          "time": 298939,
+          "type": "ability",
+          "value": "AHhb",
+        },
+        {
+          "time": 592029,
+          "type": "ability",
+          "value": "AHad",
+        },
+      ],
+      "id": "Hpal",
+      "level": 4,
+      "retrainingHistory": [],
+    },
+    {
+      "abilities": {
+        "AHbn": 1,
+        "AHdr": 2,
+      },
+      "abilityOrder": [
+        {
+          "time": 387930,
+          "type": "ability",
+          "value": "AHdr",
+        },
+        {
+          "time": 652084,
+          "type": "ability",
+          "value": "AHbn",
+        },
+        {
+          "time": 819587,
+          "type": "ability",
+          "value": "AHdr",
+        },
+      ],
+      "id": "Hblm",
+      "level": 3,
+      "retrainingHistory": [],
+    },
+  ],
+  "id": 5,
+  "items": {
+    "order": [
+      {
+        "id": "sreg",
+        "ms": 327162,
+      },
+      {
+        "id": "plcl",
+        "ms": 341634,
+      },
+      {
+        "id": "tsct",
+        "ms": 342990,
+      },
+      {
+        "id": "phea",
+        "ms": 417767,
+      },
+      {
+        "id": "plcl",
+        "ms": 619906,
+      },
+      {
+        "id": "sreg",
+        "ms": 690935,
+      },
+      {
+        "id": "plcl",
+        "ms": 692398,
+      },
+      {
+        "id": "stwp",
+        "ms": 694301,
+      },
+      {
+        "id": "sreg",
+        "ms": 829648,
+      },
+      {
+        "id": "phea",
+        "ms": 833926,
+      },
+      {
+        "id": "sreg",
+        "ms": 909258,
+      },
+      {
+        "id": "phea",
+        "ms": 910479,
+      },
+      {
+        "id": "plcl",
+        "ms": 918180,
+      },
+      {
+        "id": "tsct",
+        "ms": 926555,
+      },
+      {
+        "id": "sreg",
+        "ms": 932210,
+      },
+      {
+        "id": "stel",
+        "ms": 992084,
+      },
+      {
+        "id": "shea",
+        "ms": 995541,
+      },
+    ],
+    "summary": {
+      "phea": 3,
+      "plcl": 4,
+      "shea": 1,
+      "sreg": 5,
+      "stel": 1,
+      "stwp": 1,
+      "tsct": 2,
+    },
+  },
+  "name": "Thorzain",
+  "race": "H",
+  "raceDetected": "H",
+  "resourceTransfers": [
+    {
+      "gold": 0,
+      "lumber": 30,
+      "msElapsed": 82662,
+      "playerId": 9,
+      "playerName": "Starshaped",
+      "slot": 3,
+    },
+    {
+      "gold": 200,
+      "lumber": 0,
+      "msElapsed": 736480,
+      "playerId": 9,
+      "playerName": "Starshaped",
+      "slot": 3,
+    },
+  ],
+  "teamid": 3,
+  "units": {
+    "order": [
+      {
+        "id": "hpea",
+        "ms": 812,
+      },
+      {
+        "id": "hpea",
+        "ms": 2885,
+      },
+      {
+        "id": "hpea",
+        "ms": 8742,
+      },
+      {
+        "id": "hpea",
+        "ms": 39120,
+      },
+      {
+        "id": "hpea",
+        "ms": 58282,
+      },
+      {
+        "id": "hpea",
+        "ms": 68247,
+      },
+      {
+        "id": "hpea",
+        "ms": 86734,
+      },
+      {
+        "id": "hpea",
+        "ms": 102922,
+      },
+      {
+        "id": "hrif",
+        "ms": 112469,
+      },
+      {
+        "id": "hrif",
+        "ms": 134194,
+      },
+      {
+        "id": "hrif",
+        "ms": 160527,
+      },
+      {
+        "id": "hrif",
+        "ms": 202902,
+      },
+      {
+        "id": "hrif",
+        "ms": 250426,
+      },
+      {
+        "id": "hrif",
+        "ms": 277323,
+      },
+      {
+        "id": "hrif",
+        "ms": 307310,
+      },
+      {
+        "id": "hrif",
+        "ms": 363259,
+      },
+      {
+        "id": "hrif",
+        "ms": 397380,
+      },
+      {
+        "id": "hrif",
+        "ms": 410317,
+      },
+      {
+        "id": "hrif",
+        "ms": 445278,
+      },
+      {
+        "id": "hrif",
+        "ms": 465282,
+      },
+      {
+        "id": "hrif",
+        "ms": 525932,
+      },
+      {
+        "id": "hrif",
+        "ms": 542208,
+      },
+      {
+        "id": "hrif",
+        "ms": 549121,
+      },
+      {
+        "id": "hpea",
+        "ms": 550446,
+      },
+      {
+        "id": "hpea",
+        "ms": 550581,
+      },
+      {
+        "id": "hrif",
+        "ms": 579797,
+      },
+      {
+        "id": "hrif",
+        "ms": 593823,
+      },
+      {
+        "id": "hrif",
+        "ms": 610863,
+      },
+      {
+        "id": "hpea",
+        "ms": 630067,
+      },
+      {
+        "id": "hpea",
+        "ms": 630179,
+      },
+      {
+        "id": "hrif",
+        "ms": 636477,
+      },
+      {
+        "id": "hpea",
+        "ms": 661473,
+      },
+      {
+        "id": "hrif",
+        "ms": 680850,
+      },
+      {
+        "id": "hpea",
+        "ms": 681776,
+      },
+      {
+        "id": "hpea",
+        "ms": 681972,
+      },
+      {
+        "id": "hpea",
+        "ms": 712775,
+      },
+      {
+        "id": "hrif",
+        "ms": 721842,
+      },
+      {
+        "id": "hpea",
+        "ms": 743320,
+      },
+      {
+        "id": "hrif",
+        "ms": 757033,
+      },
+      {
+        "id": "hrif",
+        "ms": 771398,
+      },
+      {
+        "id": "hpea",
+        "ms": 779182,
+      },
+      {
+        "id": "hrif",
+        "ms": 802580,
+      },
+      {
+        "id": "hrif",
+        "ms": 814565,
+      },
+      {
+        "id": "hrif",
+        "ms": 830732,
+      },
+      {
+        "id": "hrif",
+        "ms": 852290,
+      },
+      {
+        "id": "hpea",
+        "ms": 853277,
+      },
+      {
+        "id": "hrif",
+        "ms": 860086,
+      },
+      {
+        "id": "hrif",
+        "ms": 878292,
+      },
+      {
+        "id": "hpea",
+        "ms": 879865,
+      },
+      {
+        "id": "hrif",
+        "ms": 893893,
+      },
+      {
+        "id": "hrif",
+        "ms": 916553,
+      },
+      {
+        "id": "hrif",
+        "ms": 959420,
+      },
+      {
+        "id": "hrif",
+        "ms": 984615,
+      },
+      {
+        "id": "hrif",
+        "ms": 1006417,
+      },
+      {
+        "id": "hrif",
+        "ms": 1035124,
+      },
+      {
+        "id": "hrif",
+        "ms": 1045427,
+      },
+      {
+        "id": "hrif",
+        "ms": 1082176,
+      },
+      {
+        "id": "hrif",
+        "ms": 1112217,
+      },
+    ],
+    "summary": {
+      "hpea": 20,
+      "hrif": 38,
+    },
+  },
+  "upgrades": {
+    "order": [
+      {
+        "id": "Rhri",
+        "ms": 332547,
+      },
+      {
+        "id": "Rhra",
+        "ms": 623973,
+      },
+    ],
+    "summary": {
+      "Rhra": 1,
+      "Rhri": 1,
+    },
+  },
+}
+`;

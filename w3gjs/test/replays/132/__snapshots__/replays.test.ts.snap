@@ -1,0 +1,5285 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ignores a player entry in reforged extraPlayerList that misses in playerList 1`] = `
+[
+  {
+    "actions": {
+      "ability": 54,
+      "assigngroup": 87,
+      "basic": 0,
+      "buildtrain": 406,
+      "esc": 1,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3509,
+      "select": 17,
+      "selecthotkey": 1,
+      "subgroup": 0,
+      "timed": [
+        46,
+        248,
+        260,
+        210,
+        253,
+        249,
+        249,
+        257,
+        261,
+        117,
+        258,
+        267,
+        255,
+        125,
+        208,
+        251,
+        252,
+        235,
+        74,
+      ],
+    },
+    "apm": 222,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#ff0303",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 87,
+        "used": 1,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 1,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Tallah#2192",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 21,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 69,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 1240,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        55,
+        64,
+        82,
+        54,
+        25,
+        58,
+        94,
+        128,
+        76,
+        43,
+        30,
+        188,
+        31,
+        167,
+        101,
+        16,
+        79,
+        37,
+        13,
+      ],
+    },
+    "apm": 74,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#0042ff",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 2,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "RaNgeR#2873",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 74,
+      "assigngroup": 94,
+      "basic": 0,
+      "buildtrain": 552,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4598,
+      "select": 38,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        128,
+        325,
+        334,
+        342,
+        367,
+        342,
+        338,
+        326,
+        345,
+        172,
+        329,
+        311,
+        325,
+        182,
+        268,
+        284,
+        270,
+        288,
+        80,
+      ],
+    },
+    "apm": 290,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#1ce6b9",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 94,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 3,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Banjo#12494",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 0,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 2,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 0,
+      "select": 5,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+      ],
+    },
+    "apm": 0,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#fe8a0e",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 4,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "TrencH#11363",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 47,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 265,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3758,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        30,
+        230,
+        245,
+        243,
+        240,
+        260,
+        231,
+        248,
+        251,
+        114,
+        274,
+        264,
+        250,
+        117,
+        223,
+        257,
+        249,
+        254,
+        101,
+      ],
+    },
+    "apm": 221,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#fffc00",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 11,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "second536#1404",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 40,
+      "assigngroup": 1535,
+      "basic": 0,
+      "buildtrain": 238,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4807,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        86,
+        336,
+        376,
+        370,
+        329,
+        363,
+        347,
+        334,
+        353,
+        191,
+        423,
+        441,
+        409,
+        336,
+        411,
+        428,
+        488,
+        461,
+        149,
+      ],
+    },
+    "apm": 359,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#20c000",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 410,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 434,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 691,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 5,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Gravedigger#11445",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 37,
+      "assigngroup": 12,
+      "basic": 0,
+      "buildtrain": 685,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3307,
+      "select": 36,
+      "selecthotkey": 20,
+      "subgroup": 0,
+      "timed": [
+        95,
+        252,
+        237,
+        276,
+        271,
+        224,
+        235,
+        245,
+        196,
+        105,
+        306,
+        248,
+        263,
+        150,
+        153,
+        298,
+        221,
+        252,
+        70,
+      ],
+    },
+    "apm": 223,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#4a2a04",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 12,
+        "used": 20,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 6,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Niko#25549",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 33,
+      "assigngroup": 269,
+      "basic": 0,
+      "buildtrain": 856,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4064,
+      "select": 22,
+      "selecthotkey": 9,
+      "subgroup": 0,
+      "timed": [
+        203,
+        299,
+        345,
+        306,
+        359,
+        339,
+        287,
+        312,
+        273,
+        123,
+        345,
+        300,
+        318,
+        181,
+        272,
+        353,
+        253,
+        349,
+        36,
+      ],
+    },
+    "apm": 289,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#959697",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 269,
+        "used": 9,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 7,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Enclop#21668",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 0,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 2,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 0,
+      "select": 4,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+      ],
+    },
+    "apm": 0,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#e55bb0",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 8,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Ziggs#11403",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 24,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 111,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3090,
+      "select": 13,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        10,
+        193,
+        183,
+        172,
+        181,
+        209,
+        232,
+        197,
+        167,
+        106,
+        234,
+        220,
+        196,
+        148,
+        131,
+        201,
+        193,
+        191,
+        74,
+      ],
+    },
+    "apm": 175,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#106246",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 10,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "BunsInHotDog#1757",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+]
+`;
+
+exports[`parses single player replay twistedmeadows.w3g 1`] = `
+[
+  {
+    "actions": {
+      "ability": 54,
+      "assigngroup": 87,
+      "basic": 0,
+      "buildtrain": 406,
+      "esc": 1,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3509,
+      "select": 17,
+      "selecthotkey": 1,
+      "subgroup": 0,
+      "timed": [
+        46,
+        248,
+        260,
+        210,
+        253,
+        249,
+        249,
+        257,
+        261,
+        117,
+        258,
+        267,
+        255,
+        125,
+        208,
+        251,
+        252,
+        235,
+        74,
+      ],
+    },
+    "apm": 222,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#ff0303",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 87,
+        "used": 1,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 1,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Tallah#2192",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 21,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 69,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 1240,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        55,
+        64,
+        82,
+        54,
+        25,
+        58,
+        94,
+        128,
+        76,
+        43,
+        30,
+        188,
+        31,
+        167,
+        101,
+        16,
+        79,
+        37,
+        13,
+      ],
+    },
+    "apm": 74,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#0042ff",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 2,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "RaNgeR#2873",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 74,
+      "assigngroup": 94,
+      "basic": 0,
+      "buildtrain": 552,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4598,
+      "select": 38,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        128,
+        325,
+        334,
+        342,
+        367,
+        342,
+        338,
+        326,
+        345,
+        172,
+        329,
+        311,
+        325,
+        182,
+        268,
+        284,
+        270,
+        288,
+        80,
+      ],
+    },
+    "apm": 290,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#1ce6b9",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 94,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 3,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Banjo#12494",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 0,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 2,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 0,
+      "select": 5,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        0,
+        4,
+        0,
+        1,
+        0,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+      ],
+    },
+    "apm": 0,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#fe8a0e",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 4,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "TrencH#11363",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 47,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 265,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3758,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        30,
+        230,
+        245,
+        243,
+        240,
+        260,
+        231,
+        248,
+        251,
+        114,
+        274,
+        264,
+        250,
+        117,
+        223,
+        257,
+        249,
+        254,
+        101,
+      ],
+    },
+    "apm": 221,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#fffc00",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 11,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "second536#1404",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 40,
+      "assigngroup": 1535,
+      "basic": 0,
+      "buildtrain": 238,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4807,
+      "select": 11,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        86,
+        336,
+        376,
+        370,
+        329,
+        363,
+        347,
+        334,
+        353,
+        191,
+        423,
+        441,
+        409,
+        336,
+        411,
+        428,
+        488,
+        461,
+        149,
+      ],
+    },
+    "apm": 359,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#20c000",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 410,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 434,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 691,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 5,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Gravedigger#11445",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 37,
+      "assigngroup": 12,
+      "basic": 0,
+      "buildtrain": 685,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3307,
+      "select": 36,
+      "selecthotkey": 20,
+      "subgroup": 0,
+      "timed": [
+        95,
+        252,
+        237,
+        276,
+        271,
+        224,
+        235,
+        245,
+        196,
+        105,
+        306,
+        248,
+        263,
+        150,
+        153,
+        298,
+        221,
+        252,
+        70,
+      ],
+    },
+    "apm": 223,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#4a2a04",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 12,
+        "used": 20,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 6,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Niko#25549",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 33,
+      "assigngroup": 269,
+      "basic": 0,
+      "buildtrain": 856,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 4064,
+      "select": 22,
+      "selecthotkey": 9,
+      "subgroup": 0,
+      "timed": [
+        203,
+        299,
+        345,
+        306,
+        359,
+        339,
+        287,
+        312,
+        273,
+        123,
+        345,
+        300,
+        318,
+        181,
+        272,
+        353,
+        253,
+        349,
+        36,
+      ],
+    },
+    "apm": 289,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#959697",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 269,
+        "used": 9,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 7,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Enclop#21668",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 0,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 2,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 0,
+      "select": 4,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        4,
+        0,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+      ],
+    },
+    "apm": 0,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#e55bb0",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 8,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "Ziggs#11403",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+  {
+    "actions": {
+      "ability": 24,
+      "assigngroup": 0,
+      "basic": 0,
+      "buildtrain": 111,
+      "esc": 0,
+      "item": 0,
+      "removeunit": 0,
+      "rightclick": 3090,
+      "select": 13,
+      "selecthotkey": 0,
+      "subgroup": 0,
+      "timed": [
+        10,
+        193,
+        183,
+        172,
+        181,
+        209,
+        232,
+        197,
+        167,
+        106,
+        234,
+        220,
+        196,
+        148,
+        131,
+        201,
+        193,
+        191,
+        74,
+      ],
+    },
+    "apm": 175,
+    "buildings": {
+      "order": [],
+      "summary": {},
+    },
+    "color": "#106246",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "2": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "3": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [],
+    "id": 10,
+    "items": {
+      "order": [],
+      "summary": {},
+    },
+    "name": "BunsInHotDog#1757",
+    "race": "H",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [],
+      "summary": {},
+    },
+    "upgrades": {
+      "order": [],
+      "summary": {},
+    },
+  },
+]
+`;
+
+exports[`should handle a netease replay with rogue playerId 3 CommandDataBlocks correctly #2 1`] = `
+[
+  {
+    "actions": {
+      "ability": 24,
+      "assigngroup": 43,
+      "basic": 20,
+      "buildtrain": 56,
+      "esc": 1,
+      "item": 3,
+      "removeunit": 0,
+      "rightclick": 1029,
+      "select": 306,
+      "selecthotkey": 1063,
+      "subgroup": 0,
+      "timed": [
+        198,
+        178,
+        207,
+        176,
+        222,
+        274,
+        265,
+        168,
+        352,
+        328,
+        185,
+        22,
+      ],
+    },
+    "apm": 233,
+    "buildings": {
+      "order": [
+        {
+          "id": "eate",
+          "ms": 8778,
+        },
+        {
+          "id": "emow",
+          "ms": 20130,
+        },
+        {
+          "id": "eaom",
+          "ms": 23364,
+        },
+        {
+          "id": "emow",
+          "ms": 103224,
+        },
+        {
+          "id": "eden",
+          "ms": 122298,
+        },
+        {
+          "id": "eaom",
+          "ms": 173316,
+        },
+        {
+          "id": "edob",
+          "ms": 174966,
+        },
+        {
+          "id": "emow",
+          "ms": 237864,
+        },
+        {
+          "id": "etol",
+          "ms": 246906,
+        },
+        {
+          "id": "eaom",
+          "ms": 279444,
+        },
+        {
+          "id": "etol",
+          "ms": 404778,
+        },
+        {
+          "id": "etol",
+          "ms": 408804,
+        },
+        {
+          "id": "emow",
+          "ms": 428274,
+        },
+        {
+          "id": "etoa",
+          "ms": 478104,
+        },
+      ],
+      "summary": {
+        "eaom": 3,
+        "eate": 1,
+        "eden": 1,
+        "edob": 1,
+        "emow": 4,
+        "etoa": 1,
+        "etol": 3,
+      },
+    },
+    "color": "#ff0303",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 22,
+        "used": 439,
+      },
+      "2": {
+        "assigned": 4,
+        "used": 443,
+      },
+      "3": {
+        "assigned": 8,
+        "used": 110,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 7,
+        "used": 29,
+      },
+      "6": {
+        "assigned": 1,
+        "used": 7,
+      },
+      "7": {
+        "assigned": 1,
+        "used": 35,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AEer": 2,
+          "AEfn": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 135102,
+            "type": "ability",
+            "value": "AEfn",
+          },
+          {
+            "time": 277662,
+            "type": "ability",
+            "value": "AEer",
+          },
+          {
+            "time": 554466,
+            "type": "ability",
+            "value": "AEer",
+          },
+        ],
+        "id": "Ekee",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 1,
+    "items": {
+      "order": [
+        {
+          "id": "plcl",
+          "ms": 285384,
+        },
+        {
+          "id": "plcl",
+          "ms": 285582,
+        },
+        {
+          "id": "plcl",
+          "ms": 469260,
+        },
+        {
+          "id": "dust",
+          "ms": 469524,
+        },
+        {
+          "id": "moon",
+          "ms": 469986,
+        },
+        {
+          "id": "shea",
+          "ms": 646536,
+        },
+      ],
+      "summary": {
+        "dust": 1,
+        "moon": 1,
+        "plcl": 3,
+        "shea": 1,
+      },
+    },
+    "name": "一地狱咆哮",
+    "race": "N",
+    "raceDetected": "N",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [
+        {
+          "id": "ewsp",
+          "ms": 2508,
+        },
+        {
+          "id": "ewsp",
+          "ms": 2772,
+        },
+        {
+          "id": "ewsp",
+          "ms": 31416,
+        },
+        {
+          "id": "ewsp",
+          "ms": 43230,
+        },
+        {
+          "id": "ewsp",
+          "ms": 47454,
+        },
+        {
+          "id": "ewsp",
+          "ms": 55968,
+        },
+        {
+          "id": "ewsp",
+          "ms": 57882,
+        },
+        {
+          "id": "earc",
+          "ms": 85734,
+        },
+        {
+          "id": "ewsp",
+          "ms": 96822,
+        },
+        {
+          "id": "ewsp",
+          "ms": 105600,
+        },
+        {
+          "id": "ewsp",
+          "ms": 118470,
+        },
+        {
+          "id": "ewsp",
+          "ms": 173844,
+        },
+        {
+          "id": "ewsp",
+          "ms": 198594,
+        },
+        {
+          "id": "ewsp",
+          "ms": 208560,
+        },
+        {
+          "id": "ewsp",
+          "ms": 236214,
+        },
+        {
+          "id": "esen",
+          "ms": 254430,
+        },
+        {
+          "id": "esen",
+          "ms": 292974,
+        },
+        {
+          "id": "esen",
+          "ms": 325050,
+        },
+        {
+          "id": "esen",
+          "ms": 345642,
+        },
+        {
+          "id": "ewsp",
+          "ms": 370788,
+        },
+        {
+          "id": "esen",
+          "ms": 389400,
+        },
+        {
+          "id": "esen",
+          "ms": 480612,
+        },
+        {
+          "id": "esen",
+          "ms": 497706,
+        },
+        {
+          "id": "esen",
+          "ms": 525492,
+        },
+        {
+          "id": "esen",
+          "ms": 560472,
+        },
+        {
+          "id": "esen",
+          "ms": 577170,
+        },
+        {
+          "id": "esen",
+          "ms": 598092,
+        },
+        {
+          "id": "ewsp",
+          "ms": 600798,
+        },
+        {
+          "id": "ewsp",
+          "ms": 615384,
+        },
+        {
+          "id": "ewsp",
+          "ms": 617892,
+        },
+        {
+          "id": "esen",
+          "ms": 628848,
+        },
+      ],
+      "summary": {
+        "earc": 1,
+        "esen": 12,
+        "ewsp": 18,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Resm",
+          "ms": 499422,
+        },
+      ],
+      "summary": {
+        "Resm": 1,
+      },
+    },
+  },
+  {
+    "actions": {
+      "ability": 63,
+      "assigngroup": 106,
+      "basic": 59,
+      "buildtrain": 101,
+      "esc": 0,
+      "item": 9,
+      "removeunit": 0,
+      "rightclick": 1059,
+      "select": 344,
+      "selecthotkey": 671,
+      "subgroup": 0,
+      "timed": [
+        308,
+        260,
+        278,
+        187,
+        208,
+        186,
+        175,
+        162,
+        220,
+        231,
+        209,
+        15,
+      ],
+    },
+    "apm": 220,
+    "buildings": {
+      "order": [
+        {
+          "id": "oalt",
+          "ms": 5808,
+        },
+        {
+          "id": "otrb",
+          "ms": 17820,
+        },
+        {
+          "id": "obar",
+          "ms": 33264,
+        },
+        {
+          "id": "ostr",
+          "ms": 122100,
+        },
+        {
+          "id": "ostr",
+          "ms": 122232,
+        },
+        {
+          "id": "otrb",
+          "ms": 135234,
+        },
+        {
+          "id": "ovln",
+          "ms": 166650,
+        },
+        {
+          "id": "otrb",
+          "ms": 238128,
+        },
+        {
+          "id": "osld",
+          "ms": 263406,
+        },
+        {
+          "id": "obea",
+          "ms": 264660,
+        },
+        {
+          "id": "otrb",
+          "ms": 346368,
+        },
+        {
+          "id": "ofor",
+          "ms": 470844,
+        },
+        {
+          "id": "otrb",
+          "ms": 523512,
+        },
+      ],
+      "summary": {
+        "oalt": 1,
+        "obar": 1,
+        "obea": 1,
+        "ofor": 1,
+        "osld": 1,
+        "ostr": 2,
+        "otrb": 5,
+        "ovln": 1,
+      },
+    },
+    "color": "#0042ff",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 3,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 34,
+        "used": 136,
+      },
+      "2": {
+        "assigned": 53,
+        "used": 169,
+      },
+      "3": {
+        "assigned": 4,
+        "used": 99,
+      },
+      "4": {
+        "assigned": 5,
+        "used": 164,
+      },
+      "5": {
+        "assigned": 4,
+        "used": 100,
+      },
+      "6": {
+        "assigned": 3,
+        "used": 3,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AOcr": 1,
+          "AOwk": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 127710,
+            "type": "ability",
+            "value": "AOwk",
+          },
+          {
+            "time": 563178,
+            "type": "ability",
+            "value": "AOcr",
+          },
+        ],
+        "id": "Obla",
+        "level": 2,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AOhw": 2,
+          "AOsw": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 352968,
+            "type": "ability",
+            "value": "AOsw",
+          },
+          {
+            "time": 424512,
+            "type": "ability",
+            "value": "AOhw",
+          },
+          {
+            "time": 547668,
+            "type": "ability",
+            "value": "AOhw",
+          },
+        ],
+        "id": "Oshd",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 2,
+    "items": {
+      "order": [
+        {
+          "id": "cnob",
+          "ms": 195822,
+        },
+        {
+          "id": "dust",
+          "ms": 195888,
+        },
+        {
+          "id": "stel",
+          "ms": 395340,
+        },
+        {
+          "id": "dust",
+          "ms": 395472,
+        },
+        {
+          "id": "hslv",
+          "ms": 410916,
+        },
+        {
+          "id": "shas",
+          "ms": 411048,
+        },
+        {
+          "id": "plcl",
+          "ms": 500940,
+        },
+        {
+          "id": "hslv",
+          "ms": 501996,
+        },
+        {
+          "id": "shas",
+          "ms": 503910,
+        },
+        {
+          "id": "plcl",
+          "ms": 532026,
+        },
+        {
+          "id": "plcl",
+          "ms": 532158,
+        },
+        {
+          "id": "plcl",
+          "ms": 532356,
+        },
+        {
+          "id": "phea",
+          "ms": 555060,
+        },
+        {
+          "id": "plcl",
+          "ms": 608322,
+        },
+        {
+          "id": "plcl",
+          "ms": 608520,
+        },
+      ],
+      "summary": {
+        "cnob": 1,
+        "dust": 2,
+        "hslv": 2,
+        "phea": 1,
+        "plcl": 6,
+        "shas": 2,
+        "stel": 1,
+      },
+    },
+    "name": "GrubbyGrubby",
+    "race": "O",
+    "raceDetected": "O",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [
+        {
+          "id": "opeo",
+          "ms": 1782,
+        },
+        {
+          "id": "opeo",
+          "ms": 13332,
+        },
+        {
+          "id": "opeo",
+          "ms": 26400,
+        },
+        {
+          "id": "opeo",
+          "ms": 42834,
+        },
+        {
+          "id": "opeo",
+          "ms": 52140,
+        },
+        {
+          "id": "opeo",
+          "ms": 71346,
+        },
+        {
+          "id": "opeo",
+          "ms": 81510,
+        },
+        {
+          "id": "ogru",
+          "ms": 95106,
+        },
+        {
+          "id": "ogru",
+          "ms": 186780,
+        },
+        {
+          "id": "ogru",
+          "ms": 227370,
+        },
+        {
+          "id": "orai",
+          "ms": 326502,
+        },
+        {
+          "id": "oshm",
+          "ms": 343926,
+        },
+        {
+          "id": "oshm",
+          "ms": 376134,
+        },
+        {
+          "id": "orai",
+          "ms": 377652,
+        },
+        {
+          "id": "orai",
+          "ms": 427944,
+        },
+        {
+          "id": "oshm",
+          "ms": 469920,
+        },
+        {
+          "id": "orai",
+          "ms": 497772,
+        },
+        {
+          "id": "okod",
+          "ms": 601788,
+        },
+      ],
+      "summary": {
+        "ogru": 3,
+        "okod": 1,
+        "opeo": 7,
+        "orai": 4,
+        "oshm": 3,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Roen",
+          "ms": 358314,
+        },
+        {
+          "id": "Rost",
+          "ms": 402468,
+        },
+        {
+          "id": "Robs",
+          "ms": 442530,
+        },
+        {
+          "id": "Roar",
+          "ms": 603438,
+        },
+        {
+          "id": "Rorb",
+          "ms": 629442,
+        },
+        {
+          "id": "Ropg",
+          "ms": 637230,
+        },
+        {
+          "id": "Ropg",
+          "ms": 637428,
+        },
+      ],
+      "summary": {
+        "Roar": 1,
+        "Robs": 1,
+        "Roen": 1,
+        "Ropg": 2,
+        "Rorb": 1,
+        "Rost": 1,
+      },
+    },
+  },
+]
+`;
+
+exports[`should handle a netease replay with rogue playerId 3 CommandDataBlocks correctly #3 1`] = `
+[
+  {
+    "actions": {
+      "ability": 21,
+      "assigngroup": 25,
+      "basic": 247,
+      "buildtrain": 88,
+      "esc": 0,
+      "item": 6,
+      "removeunit": 0,
+      "rightclick": 758,
+      "select": 331,
+      "selecthotkey": 807,
+      "subgroup": 0,
+      "timed": [
+        188,
+        228,
+        146,
+        194,
+        200,
+        228,
+        227,
+        220,
+        189,
+        207,
+        196,
+        86,
+      ],
+    },
+    "apm": 198,
+    "buildings": {
+      "order": [
+        {
+          "id": "uaod",
+          "ms": 6006,
+        },
+        {
+          "id": "usep",
+          "ms": 9108,
+        },
+        {
+          "id": "uzig",
+          "ms": 22506,
+        },
+        {
+          "id": "utom",
+          "ms": 56298,
+        },
+        {
+          "id": "unp1",
+          "ms": 142494,
+        },
+        {
+          "id": "ugrv",
+          "ms": 160710,
+        },
+        {
+          "id": "uzig",
+          "ms": 188760,
+        },
+        {
+          "id": "unp2",
+          "ms": 298452,
+        },
+        {
+          "id": "unp2",
+          "ms": 298584,
+        },
+        {
+          "id": "uslh",
+          "ms": 331122,
+        },
+        {
+          "id": "uzig",
+          "ms": 356796,
+        },
+        {
+          "id": "uzig",
+          "ms": 508662,
+        },
+      ],
+      "summary": {
+        "uaod": 1,
+        "ugrv": 1,
+        "unp1": 1,
+        "unp2": 2,
+        "usep": 1,
+        "uslh": 1,
+        "utom": 1,
+        "uzig": 4,
+      },
+    },
+    "color": "#ff0303",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 22,
+        "used": 392,
+      },
+      "2": {
+        "assigned": 2,
+        "used": 184,
+      },
+      "3": {
+        "assigned": 1,
+        "used": 231,
+      },
+      "4": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AUau": 1,
+          "AUdc": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 137346,
+            "type": "ability",
+            "value": "AUdc",
+          },
+          {
+            "time": 209616,
+            "type": "ability",
+            "value": "AUau",
+          },
+          {
+            "time": 295944,
+            "type": "ability",
+            "value": "AUdc",
+          },
+        ],
+        "id": "Udea",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AUfn": 3,
+          "AUfu": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 347094,
+            "type": "ability",
+            "value": "AUfu",
+          },
+          {
+            "time": 566280,
+            "type": "ability",
+            "value": "AUfn",
+          },
+          {
+            "time": 566478,
+            "type": "ability",
+            "value": "AUfn",
+          },
+          {
+            "time": 566544,
+            "type": "ability",
+            "value": "AUfn",
+          },
+        ],
+        "id": "Ulic",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AUcs": 1,
+          "AUsl": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 538428,
+            "type": "ability",
+            "value": "AUsl",
+          },
+          {
+            "time": 691812,
+            "type": "ability",
+            "value": "AUcs",
+          },
+        ],
+        "id": "Udre",
+        "level": 2,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 1,
+    "items": {
+      "order": [
+        {
+          "id": "rnec",
+          "ms": 129492,
+        },
+        {
+          "id": "rnec",
+          "ms": 129624,
+        },
+        {
+          "id": "phea",
+          "ms": 339768,
+        },
+        {
+          "id": "rnec",
+          "ms": 340296,
+        },
+        {
+          "id": "dust",
+          "ms": 442596,
+        },
+        {
+          "id": "ocor",
+          "ms": 443190,
+        },
+        {
+          "id": "rnec",
+          "ms": 516582,
+        },
+        {
+          "id": "rnec",
+          "ms": 516714,
+        },
+      ],
+      "summary": {
+        "dust": 1,
+        "ocor": 1,
+        "phea": 1,
+        "rnec": 5,
+      },
+    },
+    "name": "十方普贤",
+    "race": "U",
+    "raceDetected": "U",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [
+        {
+          "id": "uaco",
+          "ms": 1716,
+        },
+        {
+          "id": "uaco",
+          "ms": 31152,
+        },
+        {
+          "id": "uaco",
+          "ms": 31416,
+        },
+        {
+          "id": "uaco",
+          "ms": 42108,
+        },
+        {
+          "id": "uaco",
+          "ms": 42240,
+        },
+        {
+          "id": "ugho",
+          "ms": 70158,
+        },
+        {
+          "id": "ugho",
+          "ms": 70290,
+        },
+        {
+          "id": "ugho",
+          "ms": 87186,
+        },
+        {
+          "id": "ugho",
+          "ms": 87318,
+        },
+        {
+          "id": "ugho",
+          "ms": 100386,
+        },
+        {
+          "id": "ucry",
+          "ms": 243474,
+        },
+        {
+          "id": "ucry",
+          "ms": 243540,
+        },
+        {
+          "id": "uobs",
+          "ms": 415668,
+        },
+        {
+          "id": "ucry",
+          "ms": 416130,
+        },
+        {
+          "id": "ucry",
+          "ms": 507408,
+        },
+        {
+          "id": "uobs",
+          "ms": 573276,
+        },
+        {
+          "id": "ucry",
+          "ms": 573738,
+        },
+        {
+          "id": "ugho",
+          "ms": 611424,
+        },
+      ],
+      "summary": {
+        "uaco": 5,
+        "ucry": 5,
+        "ugho": 6,
+        "uobs": 2,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Rubu",
+          "ms": 354552,
+        },
+        {
+          "id": "Rusp",
+          "ms": 463584,
+        },
+        {
+          "id": "Rusp",
+          "ms": 463716,
+        },
+      ],
+      "summary": {
+        "Rubu": 1,
+        "Rusp": 2,
+      },
+    },
+  },
+  {
+    "actions": {
+      "ability": 40,
+      "assigngroup": 68,
+      "basic": 40,
+      "buildtrain": 131,
+      "esc": 0,
+      "item": 10,
+      "removeunit": 0,
+      "rightclick": 975,
+      "select": 318,
+      "selecthotkey": 586,
+      "subgroup": 0,
+      "timed": [
+        306,
+        178,
+        213,
+        151,
+        151,
+        187,
+        169,
+        173,
+        155,
+        187,
+        196,
+        136,
+      ],
+    },
+    "apm": 188,
+    "buildings": {
+      "order": [
+        {
+          "id": "oalt",
+          "ms": 5214,
+        },
+        {
+          "id": "otrb",
+          "ms": 18150,
+        },
+        {
+          "id": "obar",
+          "ms": 34848,
+        },
+        {
+          "id": "ovln",
+          "ms": 84216,
+        },
+        {
+          "id": "ostr",
+          "ms": 146322,
+        },
+        {
+          "id": "ostr",
+          "ms": 146520,
+        },
+        {
+          "id": "otrb",
+          "ms": 154506,
+        },
+        {
+          "id": "otrb",
+          "ms": 222684,
+        },
+        {
+          "id": "obea",
+          "ms": 307560,
+        },
+        {
+          "id": "ofrt",
+          "ms": 322476,
+        },
+        {
+          "id": "otrb",
+          "ms": 400488,
+        },
+        {
+          "id": "ofor",
+          "ms": 410322,
+        },
+        {
+          "id": "otrb",
+          "ms": 572220,
+        },
+        {
+          "id": "otto",
+          "ms": 613470,
+        },
+      ],
+      "summary": {
+        "oalt": 1,
+        "obar": 1,
+        "obea": 1,
+        "ofor": 1,
+        "ofrt": 1,
+        "ostr": 2,
+        "otrb": 5,
+        "otto": 1,
+        "ovln": 1,
+      },
+    },
+    "color": "#0042ff",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 2,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 32,
+        "used": 94,
+      },
+      "2": {
+        "assigned": 25,
+        "used": 86,
+      },
+      "3": {
+        "assigned": 1,
+        "used": 125,
+      },
+      "4": {
+        "assigned": 3,
+        "used": 129,
+      },
+      "5": {
+        "assigned": 2,
+        "used": 150,
+      },
+      "6": {
+        "assigned": 3,
+        "used": 2,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AOcr": 2,
+          "AOwk": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 126786,
+            "type": "ability",
+            "value": "AOwk",
+          },
+          {
+            "time": 227436,
+            "type": "ability",
+            "value": "AOcr",
+          },
+          {
+            "time": 321618,
+            "type": "ability",
+            "value": "AOwk",
+          },
+          {
+            "time": 684156,
+            "type": "ability",
+            "value": "AOcr",
+          },
+        ],
+        "id": "Obla",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AOhw": 2,
+          "AOhx": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 366234,
+            "type": "ability",
+            "value": "AOhx",
+          },
+          {
+            "time": 437514,
+            "type": "ability",
+            "value": "AOhw",
+          },
+          {
+            "time": 516780,
+            "type": "ability",
+            "value": "AOhw",
+          },
+          {
+            "time": 691614,
+            "type": "ability",
+            "value": "AOhx",
+          },
+        ],
+        "id": "Oshd",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AOae": 1,
+          "AOws": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 531828,
+            "type": "ability",
+            "value": "AOae",
+          },
+          {
+            "time": 595188,
+            "type": "ability",
+            "value": "AOws",
+          },
+          {
+            "time": 668514,
+            "type": "ability",
+            "value": "AOws",
+          },
+        ],
+        "id": "Otch",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 2,
+    "items": {
+      "order": [
+        {
+          "id": "cnob",
+          "ms": 133122,
+        },
+        {
+          "id": "cnob",
+          "ms": 133254,
+        },
+        {
+          "id": "hslv",
+          "ms": 178134,
+        },
+        {
+          "id": "hslv",
+          "ms": 178332,
+        },
+        {
+          "id": "hslv",
+          "ms": 178464,
+        },
+        {
+          "id": "stel",
+          "ms": 333696,
+        },
+        {
+          "id": "hslv",
+          "ms": 363990,
+        },
+        {
+          "id": "shas",
+          "ms": 364122,
+        },
+        {
+          "id": "plcl",
+          "ms": 501204,
+        },
+        {
+          "id": "hslv",
+          "ms": 502392,
+        },
+        {
+          "id": "oli2",
+          "ms": 509520,
+        },
+        {
+          "id": "hslv",
+          "ms": 527340,
+        },
+        {
+          "id": "shas",
+          "ms": 527538,
+        },
+        {
+          "id": "plcl",
+          "ms": 584958,
+        },
+        {
+          "id": "hslv",
+          "ms": 587598,
+        },
+        {
+          "id": "hslv",
+          "ms": 587730,
+        },
+        {
+          "id": "plcl",
+          "ms": 639012,
+        },
+        {
+          "id": "plcl",
+          "ms": 639210,
+        },
+      ],
+      "summary": {
+        "cnob": 2,
+        "hslv": 8,
+        "oli2": 1,
+        "plcl": 4,
+        "shas": 2,
+        "stel": 1,
+      },
+    },
+    "name": "GrubbyGrubby",
+    "race": "O",
+    "raceDetected": "O",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [
+        {
+          "id": "opeo",
+          "ms": 1650,
+        },
+        {
+          "id": "opeo",
+          "ms": 9900,
+        },
+        {
+          "id": "opeo",
+          "ms": 27786,
+        },
+        {
+          "id": "opeo",
+          "ms": 42042,
+        },
+        {
+          "id": "opeo",
+          "ms": 42306,
+        },
+        {
+          "id": "opeo",
+          "ms": 52932,
+        },
+        {
+          "id": "opeo",
+          "ms": 61710,
+        },
+        {
+          "id": "ogru",
+          "ms": 95304,
+        },
+        {
+          "id": "ogru",
+          "ms": 95502,
+        },
+        {
+          "id": "opeo",
+          "ms": 104016,
+        },
+        {
+          "id": "ogru",
+          "ms": 207570,
+        },
+        {
+          "id": "ogru",
+          "ms": 241890,
+        },
+        {
+          "id": "owyv",
+          "ms": 372570,
+        },
+        {
+          "id": "okod",
+          "ms": 515460,
+        },
+        {
+          "id": "ohun",
+          "ms": 540936,
+        },
+        {
+          "id": "ohun",
+          "ms": 569778,
+        },
+        {
+          "id": "ohun",
+          "ms": 601194,
+        },
+        {
+          "id": "otbk",
+          "ms": 695640,
+        },
+        {
+          "id": "orai",
+          "ms": 695904,
+        },
+      ],
+      "summary": {
+        "ogru": 4,
+        "ohun": 3,
+        "okod": 1,
+        "opeo": 8,
+        "orai": 1,
+        "otbk": 1,
+        "owyv": 1,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Robs",
+          "ms": 323994,
+        },
+        {
+          "id": "Rorb",
+          "ms": 570372,
+        },
+        {
+          "id": "Rorb",
+          "ms": 570636,
+        },
+        {
+          "id": "Rwdm",
+          "ms": 570900,
+        },
+        {
+          "id": "Rwdm",
+          "ms": 571098,
+        },
+        {
+          "id": "Robk",
+          "ms": 624162,
+        },
+        {
+          "id": "Robk",
+          "ms": 624360,
+        },
+      ],
+      "summary": {
+        "Robk": 2,
+        "Robs": 1,
+        "Rorb": 2,
+        "Rwdm": 2,
+      },
+    },
+  },
+]
+`;
+
+exports[`should handle a netease replay with rogue playerId 3 CommandDataBlocks correctly 1`] = `
+[
+  {
+    "actions": {
+      "ability": 21,
+      "assigngroup": 52,
+      "basic": 38,
+      "buildtrain": 102,
+      "esc": 8,
+      "item": 2,
+      "removeunit": 0,
+      "rightclick": 726,
+      "select": 272,
+      "selecthotkey": 743,
+      "subgroup": 0,
+      "timed": [
+        211,
+        239,
+        191,
+        203,
+        181,
+        177,
+        195,
+        200,
+        206,
+        191,
+        6,
+      ],
+    },
+    "apm": 199,
+    "buildings": {
+      "order": [
+        {
+          "id": "halt",
+          "ms": 5478,
+        },
+        {
+          "id": "hhou",
+          "ms": 17424,
+        },
+        {
+          "id": "hbar",
+          "ms": 18744,
+        },
+        {
+          "id": "hhou",
+          "ms": 62304,
+        },
+        {
+          "id": "hwtw",
+          "ms": 85404,
+        },
+        {
+          "id": "hhou",
+          "ms": 101376,
+        },
+        {
+          "id": "hatw",
+          "ms": 116622,
+        },
+        {
+          "id": "hatw",
+          "ms": 116754,
+        },
+        {
+          "id": "hkee",
+          "ms": 199584,
+        },
+        {
+          "id": "hhou",
+          "ms": 222222,
+        },
+        {
+          "id": "hbla",
+          "ms": 238392,
+        },
+        {
+          "id": "hhou",
+          "ms": 264396,
+        },
+        {
+          "id": "hhou",
+          "ms": 322542,
+        },
+        {
+          "id": "hars",
+          "ms": 348744,
+        },
+        {
+          "id": "hvlt",
+          "ms": 356334,
+        },
+        {
+          "id": "hhou",
+          "ms": 460548,
+        },
+      ],
+      "summary": {
+        "halt": 1,
+        "hars": 1,
+        "hatw": 2,
+        "hbar": 1,
+        "hbla": 1,
+        "hhou": 7,
+        "hkee": 1,
+        "hvlt": 1,
+        "hwtw": 1,
+      },
+    },
+    "color": "#ff0303",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 39,
+        "used": 230,
+      },
+      "2": {
+        "assigned": 7,
+        "used": 219,
+      },
+      "3": {
+        "assigned": 5,
+        "used": 273,
+      },
+      "4": {
+        "assigned": 1,
+        "used": 21,
+      },
+      "5": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AHab": 1,
+          "AHwe": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 126126,
+            "type": "ability",
+            "value": "AHwe",
+          },
+          {
+            "time": 342210,
+            "type": "ability",
+            "value": "AHab",
+          },
+          {
+            "time": 572880,
+            "type": "ability",
+            "value": "AHwe",
+          },
+        ],
+        "id": "Hamg",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AHtb": 2,
+          "AHtc": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 397518,
+            "type": "ability",
+            "value": "AHtb",
+          },
+          {
+            "time": 494802,
+            "type": "ability",
+            "value": "AHtc",
+          },
+          {
+            "time": 582120,
+            "type": "ability",
+            "value": "AHtb",
+          },
+        ],
+        "id": "Hmkg",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 1,
+    "items": {
+      "order": [
+        {
+          "id": "bspd",
+          "ms": 261492,
+        },
+        {
+          "id": "cnob",
+          "ms": 369600,
+        },
+        {
+          "id": "sreg",
+          "ms": 426030,
+        },
+      ],
+      "summary": {
+        "bspd": 1,
+        "cnob": 1,
+        "sreg": 1,
+      },
+    },
+    "name": "mojusheji",
+    "race": "R",
+    "raceDetected": "H",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [
+        {
+          "id": "hpea",
+          "ms": 1518,
+        },
+        {
+          "id": "hpea",
+          "ms": 1716,
+        },
+        {
+          "id": "hpea",
+          "ms": 1914,
+        },
+        {
+          "id": "hpea",
+          "ms": 2112,
+        },
+        {
+          "id": "hpea",
+          "ms": 2244,
+        },
+        {
+          "id": "hpea",
+          "ms": 2442,
+        },
+        {
+          "id": "hpea",
+          "ms": 7656,
+        },
+        {
+          "id": "hpea",
+          "ms": 7788,
+        },
+        {
+          "id": "hpea",
+          "ms": 11088,
+        },
+        {
+          "id": "hpea",
+          "ms": 22242,
+        },
+        {
+          "id": "hpea",
+          "ms": 28908,
+        },
+        {
+          "id": "hpea",
+          "ms": 55176,
+        },
+        {
+          "id": "hpea",
+          "ms": 55374,
+        },
+        {
+          "id": "hpea",
+          "ms": 55506,
+        },
+        {
+          "id": "hpea",
+          "ms": 67386,
+        },
+        {
+          "id": "hpea",
+          "ms": 67518,
+        },
+        {
+          "id": "hfoo",
+          "ms": 81312,
+        },
+        {
+          "id": "hfoo",
+          "ms": 102960,
+        },
+        {
+          "id": "hpea",
+          "ms": 117546,
+        },
+        {
+          "id": "hfoo",
+          "ms": 131868,
+        },
+        {
+          "id": "hfoo",
+          "ms": 148632,
+        },
+        {
+          "id": "hfoo",
+          "ms": 148764,
+        },
+        {
+          "id": "hpea",
+          "ms": 167706,
+        },
+        {
+          "id": "hfoo",
+          "ms": 174042,
+        },
+        {
+          "id": "hrif",
+          "ms": 344388,
+        },
+        {
+          "id": "hrif",
+          "ms": 395076,
+        },
+        {
+          "id": "hmpr",
+          "ms": 398508,
+        },
+        {
+          "id": "hmpr",
+          "ms": 451242,
+        },
+        {
+          "id": "hrif",
+          "ms": 458964,
+        },
+        {
+          "id": "hmpr",
+          "ms": 480810,
+        },
+        {
+          "id": "hrif",
+          "ms": 499488,
+        },
+        {
+          "id": "hrif",
+          "ms": 529584,
+        },
+      ],
+      "summary": {
+        "hfoo": 6,
+        "hmpr": 3,
+        "hpea": 18,
+        "hrif": 5,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Rhri",
+          "ms": 423258,
+        },
+        {
+          "id": "Rhpt",
+          "ms": 481074,
+        },
+        {
+          "id": "Rhra",
+          "ms": 530112,
+        },
+        {
+          "id": "Rhra",
+          "ms": 530244,
+        },
+      ],
+      "summary": {
+        "Rhpt": 1,
+        "Rhra": 2,
+        "Rhri": 1,
+      },
+    },
+  },
+  {
+    "actions": {
+      "ability": 43,
+      "assigngroup": 210,
+      "basic": 80,
+      "buildtrain": 77,
+      "esc": 6,
+      "item": 2,
+      "removeunit": 0,
+      "rightclick": 1205,
+      "select": 371,
+      "selecthotkey": 952,
+      "subgroup": 0,
+      "timed": [
+        421,
+        371,
+        294,
+        294,
+        243,
+        252,
+        235,
+        268,
+        335,
+        259,
+        13,
+      ],
+    },
+    "apm": 297,
+    "buildings": {
+      "order": [
+        {
+          "id": "oalt",
+          "ms": 4422,
+        },
+        {
+          "id": "oalt",
+          "ms": 4950,
+        },
+        {
+          "id": "oalt",
+          "ms": 5808,
+        },
+        {
+          "id": "otrb",
+          "ms": 18876,
+        },
+        {
+          "id": "obar",
+          "ms": 33330,
+        },
+        {
+          "id": "ostr",
+          "ms": 136026,
+        },
+        {
+          "id": "otrb",
+          "ms": 147114,
+        },
+        {
+          "id": "ovln",
+          "ms": 162888,
+        },
+        {
+          "id": "otrb",
+          "ms": 234498,
+        },
+        {
+          "id": "otrb",
+          "ms": 235620,
+        },
+        {
+          "id": "osld",
+          "ms": 278058,
+        },
+        {
+          "id": "obea",
+          "ms": 278718,
+        },
+        {
+          "id": "ofor",
+          "ms": 318186,
+        },
+        {
+          "id": "otrb",
+          "ms": 422796,
+        },
+        {
+          "id": "ogre",
+          "ms": 461274,
+        },
+      ],
+      "summary": {
+        "oalt": 3,
+        "obar": 1,
+        "obea": 1,
+        "ofor": 1,
+        "ogre": 1,
+        "osld": 1,
+        "ostr": 1,
+        "otrb": 5,
+        "ovln": 1,
+      },
+    },
+    "color": "#0042ff",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 101,
+        "used": 375,
+      },
+      "2": {
+        "assigned": 40,
+        "used": 239,
+      },
+      "3": {
+        "assigned": 52,
+        "used": 241,
+      },
+      "4": {
+        "assigned": 10,
+        "used": 94,
+      },
+      "5": {
+        "assigned": 7,
+        "used": 3,
+      },
+      "6": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AOcl": 1,
+          "AOsf": 3,
+        },
+        "abilityOrder": [
+          {
+            "time": 131406,
+            "type": "ability",
+            "value": "AOsf",
+          },
+          {
+            "time": 362208,
+            "type": "ability",
+            "value": "AOcl",
+          },
+          {
+            "time": 532158,
+            "type": "ability",
+            "value": "AOsf",
+          },
+          {
+            "time": 532290,
+            "type": "ability",
+            "value": "AOsf",
+          },
+        ],
+        "id": "Ofar",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AOae": 2,
+          "AOws": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 339042,
+            "type": "ability",
+            "value": "AOae",
+          },
+          {
+            "time": 492294,
+            "type": "ability",
+            "value": "AOws",
+          },
+          {
+            "time": 543906,
+            "type": "ability",
+            "value": "AOws",
+          },
+          {
+            "time": 584628,
+            "type": "ability",
+            "value": "AOae",
+          },
+        ],
+        "id": "Otch",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 2,
+    "items": {
+      "order": [
+        {
+          "id": "shas",
+          "ms": 337656,
+        },
+        {
+          "id": "hslv",
+          "ms": 337788,
+        },
+        {
+          "id": "hslv",
+          "ms": 337920,
+        },
+        {
+          "id": "plcl",
+          "ms": 602250,
+        },
+        {
+          "id": "hslv",
+          "ms": 602448,
+        },
+      ],
+      "summary": {
+        "hslv": 3,
+        "plcl": 1,
+        "shas": 1,
+      },
+    },
+    "name": "RW浪的象征",
+    "race": "O",
+    "raceDetected": "O",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [
+        {
+          "id": "opeo",
+          "ms": 1320,
+        },
+        {
+          "id": "opeo",
+          "ms": 2112,
+        },
+        {
+          "id": "opeo",
+          "ms": 3102,
+        },
+        {
+          "id": "opeo",
+          "ms": 16104,
+        },
+        {
+          "id": "opeo",
+          "ms": 41580,
+        },
+        {
+          "id": "opeo",
+          "ms": 51942,
+        },
+        {
+          "id": "opeo",
+          "ms": 59730,
+        },
+        {
+          "id": "opeo",
+          "ms": 92400,
+        },
+        {
+          "id": "ogru",
+          "ms": 94710,
+        },
+        {
+          "id": "opeo",
+          "ms": 99990,
+        },
+        {
+          "id": "ogru",
+          "ms": 199980,
+        },
+        {
+          "id": "ogru",
+          "ms": 230934,
+        },
+        {
+          "id": "ogru",
+          "ms": 296736,
+        },
+        {
+          "id": "orai",
+          "ms": 348546,
+        },
+        {
+          "id": "oshm",
+          "ms": 357654,
+        },
+        {
+          "id": "oshm",
+          "ms": 370260,
+        },
+        {
+          "id": "oshm",
+          "ms": 395208,
+        },
+        {
+          "id": "oshm",
+          "ms": 401742,
+        },
+        {
+          "id": "okod",
+          "ms": 503712,
+        },
+        {
+          "id": "ogru",
+          "ms": 524106,
+        },
+        {
+          "id": "orai",
+          "ms": 536052,
+        },
+        {
+          "id": "orai",
+          "ms": 579546,
+        },
+        {
+          "id": "oshm",
+          "ms": 579744,
+        },
+        {
+          "id": "orai",
+          "ms": 599808,
+        },
+        {
+          "id": "oshm",
+          "ms": 601128,
+        },
+      ],
+      "summary": {
+        "ogru": 5,
+        "okod": 1,
+        "opeo": 9,
+        "orai": 4,
+        "oshm": 6,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Ropg",
+          "ms": 97812,
+        },
+        {
+          "id": "Robs",
+          "ms": 374748,
+        },
+        {
+          "id": "Roen",
+          "ms": 379896,
+        },
+        {
+          "id": "Rost",
+          "ms": 433488,
+        },
+        {
+          "id": "Rorb",
+          "ms": 526086,
+        },
+      ],
+      "summary": {
+        "Robs": 1,
+        "Roen": 1,
+        "Ropg": 1,
+        "Rorb": 1,
+        "Rost": 1,
+      },
+    },
+  },
+]
+`;
+
+exports[`should parse a flo w3c hostbot game correctly 1`] = `
+[
+  {
+    "actions": {
+      "ability": 32,
+      "assigngroup": 249,
+      "basic": 161,
+      "buildtrain": 76,
+      "esc": 1,
+      "item": 2,
+      "removeunit": 0,
+      "rightclick": 1086,
+      "select": 494,
+      "selecthotkey": 1836,
+      "subgroup": 0,
+      "timed": [
+        387,
+        454,
+        409,
+        368,
+        352,
+        334,
+        340,
+        357,
+        341,
+        399,
+        231,
+        0,
+      ],
+    },
+    "apm": 362,
+    "buildings": {
+      "order": [
+        {
+          "id": "oalt",
+          "ms": 5519,
+        },
+        {
+          "id": "oalt",
+          "ms": 5999,
+        },
+        {
+          "id": "otrb",
+          "ms": 17259,
+        },
+        {
+          "id": "obar",
+          "ms": 34779,
+        },
+        {
+          "id": "ostr",
+          "ms": 137099,
+        },
+        {
+          "id": "otrb",
+          "ms": 145079,
+        },
+        {
+          "id": "ovln",
+          "ms": 157419,
+        },
+        {
+          "id": "otrb",
+          "ms": 270199,
+        },
+        {
+          "id": "obea",
+          "ms": 291719,
+        },
+        {
+          "id": "obea",
+          "ms": 298559,
+        },
+        {
+          "id": "ofor",
+          "ms": 335759,
+        },
+        {
+          "id": "otrb",
+          "ms": 429139,
+        },
+        {
+          "id": "owtw",
+          "ms": 431439,
+        },
+        {
+          "id": "ogre",
+          "ms": 572059,
+        },
+        {
+          "id": "owtw",
+          "ms": 621439,
+        },
+        {
+          "id": "obea",
+          "ms": 652879,
+        },
+      ],
+      "summary": {
+        "oalt": 2,
+        "obar": 1,
+        "obea": 3,
+        "ofor": 1,
+        "ogre": 1,
+        "ostr": 1,
+        "otrb": 4,
+        "ovln": 1,
+        "owtw": 2,
+      },
+    },
+    "color": "#540081",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 9,
+        "used": 94,
+      },
+      "1": {
+        "assigned": 112,
+        "used": 292,
+      },
+      "2": {
+        "assigned": 46,
+        "used": 157,
+      },
+      "3": {
+        "assigned": 16,
+        "used": 18,
+      },
+      "4": {
+        "assigned": 56,
+        "used": 621,
+      },
+      "5": {
+        "assigned": 8,
+        "used": 653,
+      },
+      "6": {
+        "assigned": 2,
+        "used": 1,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AOcl": 1,
+          "AOsf": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 125339,
+            "type": "ability",
+            "value": "AOsf",
+          },
+          {
+            "time": 329059,
+            "type": "ability",
+            "value": "AOcl",
+          },
+          {
+            "time": 556359,
+            "type": "ability",
+            "value": "AOsf",
+          },
+        ],
+        "id": "Ofar",
+        "level": 3,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AOae": 1,
+          "AOws": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 355559,
+            "type": "ability",
+            "value": "AOae",
+          },
+          {
+            "time": 464359,
+            "type": "ability",
+            "value": "AOws",
+          },
+        ],
+        "id": "Otch",
+        "level": 2,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 1,
+    "items": {
+      "order": [
+        {
+          "id": "hslv",
+          "ms": 345179,
+        },
+        {
+          "id": "hslv",
+          "ms": 345299,
+        },
+        {
+          "id": "shas",
+          "ms": 345439,
+        },
+        {
+          "id": "hslv",
+          "ms": 455919,
+        },
+        {
+          "id": "hslv",
+          "ms": 456059,
+        },
+        {
+          "id": "shas",
+          "ms": 456179,
+        },
+        {
+          "id": "plcl",
+          "ms": 474219,
+        },
+        {
+          "id": "shea",
+          "ms": 489079,
+        },
+        {
+          "id": "dust",
+          "ms": 489399,
+        },
+        {
+          "id": "bspd",
+          "ms": 489399,
+        },
+      ],
+      "summary": {
+        "bspd": 1,
+        "dust": 1,
+        "hslv": 4,
+        "plcl": 1,
+        "shas": 2,
+        "shea": 1,
+      },
+    },
+    "name": "IIIIIlllIIIl#3697",
+    "race": "O",
+    "raceDetected": "O",
+    "resourceTransfers": [],
+    "teamid": 0,
+    "units": {
+      "order": [
+        {
+          "id": "opeo",
+          "ms": 1299,
+        },
+        {
+          "id": "opeo",
+          "ms": 1439,
+        },
+        {
+          "id": "opeo",
+          "ms": 20459,
+        },
+        {
+          "id": "opeo",
+          "ms": 44259,
+        },
+        {
+          "id": "opeo",
+          "ms": 44419,
+        },
+        {
+          "id": "opeo",
+          "ms": 53159,
+        },
+        {
+          "id": "opeo",
+          "ms": 53319,
+        },
+        {
+          "id": "opeo",
+          "ms": 63719,
+        },
+        {
+          "id": "opeo",
+          "ms": 84319,
+        },
+        {
+          "id": "ogru",
+          "ms": 95339,
+        },
+        {
+          "id": "opeo",
+          "ms": 99879,
+        },
+        {
+          "id": "ogru",
+          "ms": 196579,
+        },
+        {
+          "id": "ogru",
+          "ms": 223199,
+        },
+        {
+          "id": "orai",
+          "ms": 360299,
+        },
+        {
+          "id": "nftb",
+          "ms": 403739,
+        },
+        {
+          "id": "okod",
+          "ms": 454599,
+        },
+        {
+          "id": "orai",
+          "ms": 497679,
+        },
+        {
+          "id": "okod",
+          "ms": 525239,
+        },
+        {
+          "id": "orai",
+          "ms": 548039,
+        },
+        {
+          "id": "orai",
+          "ms": 609599,
+        },
+        {
+          "id": "nzep",
+          "ms": 638779,
+        },
+        {
+          "id": "orai",
+          "ms": 649619,
+        },
+      ],
+      "summary": {
+        "nftb": 1,
+        "nzep": 1,
+        "ogru": 3,
+        "okod": 2,
+        "opeo": 10,
+        "orai": 5,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Robs",
+          "ms": 300919,
+        },
+        {
+          "id": "Roen",
+          "ms": 386859,
+        },
+        {
+          "id": "Rorb",
+          "ms": 579819,
+        },
+        {
+          "id": "Ropg",
+          "ms": 654579,
+        },
+      ],
+      "summary": {
+        "Robs": 1,
+        "Roen": 1,
+        "Ropg": 1,
+        "Rorb": 1,
+      },
+    },
+  },
+  {
+    "actions": {
+      "ability": 26,
+      "assigngroup": 105,
+      "basic": 106,
+      "buildtrain": 81,
+      "esc": 0,
+      "item": 1,
+      "removeunit": 1,
+      "rightclick": 1335,
+      "select": 435,
+      "selecthotkey": 1407,
+      "subgroup": 0,
+      "timed": [
+        393,
+        370,
+        341,
+        324,
+        257,
+        320,
+        261,
+        369,
+        268,
+        314,
+        301,
+        14,
+      ],
+    },
+    "apm": 319,
+    "buildings": {
+      "order": [
+        {
+          "id": "ugrv",
+          "ms": 4859,
+        },
+        {
+          "id": "usep",
+          "ms": 7779,
+        },
+        {
+          "id": "usep",
+          "ms": 9319,
+        },
+        {
+          "id": "usep",
+          "ms": 9819,
+        },
+        {
+          "id": "uaod",
+          "ms": 40099,
+        },
+        {
+          "id": "uzig",
+          "ms": 56199,
+        },
+        {
+          "id": "utom",
+          "ms": 80999,
+        },
+        {
+          "id": "utom",
+          "ms": 81579,
+        },
+        {
+          "id": "uzig",
+          "ms": 117359,
+        },
+        {
+          "id": "uzg2",
+          "ms": 157619,
+        },
+        {
+          "id": "unp1",
+          "ms": 222559,
+        },
+        {
+          "id": "unp1",
+          "ms": 222679,
+        },
+        {
+          "id": "uzig",
+          "ms": 287019,
+        },
+        {
+          "id": "unp2",
+          "ms": 380679,
+        },
+        {
+          "id": "uslh",
+          "ms": 430019,
+        },
+        {
+          "id": "uzig",
+          "ms": 437319,
+        },
+        {
+          "id": "uzig",
+          "ms": 580959,
+        },
+        {
+          "id": "uzg1",
+          "ms": 616959,
+        },
+        {
+          "id": "uzg1",
+          "ms": 617079,
+        },
+      ],
+      "summary": {
+        "uaod": 1,
+        "ugrv": 1,
+        "unp1": 2,
+        "unp2": 1,
+        "usep": 3,
+        "uslh": 1,
+        "utom": 2,
+        "uzg1": 2,
+        "uzg2": 1,
+        "uzig": 5,
+      },
+    },
+    "color": "#1ce6b9",
+    "groupHotkeys": {
+      "0": {
+        "assigned": 1,
+        "used": 0,
+      },
+      "1": {
+        "assigned": 91,
+        "used": 415,
+      },
+      "2": {
+        "assigned": 5,
+        "used": 141,
+      },
+      "3": {
+        "assigned": 3,
+        "used": 153,
+      },
+      "4": {
+        "assigned": 2,
+        "used": 219,
+      },
+      "5": {
+        "assigned": 2,
+        "used": 264,
+      },
+      "6": {
+        "assigned": 1,
+        "used": 215,
+      },
+      "7": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "8": {
+        "assigned": 0,
+        "used": 0,
+      },
+      "9": {
+        "assigned": 0,
+        "used": 0,
+      },
+    },
+    "heroes": [
+      {
+        "abilities": {
+          "AUau": 2,
+          "AUdc": 2,
+        },
+        "abilityOrder": [
+          {
+            "time": 162919,
+            "type": "ability",
+            "value": "AUdc",
+          },
+          {
+            "time": 332199,
+            "type": "ability",
+            "value": "AUau",
+          },
+          {
+            "time": 397079,
+            "type": "ability",
+            "value": "AUdc",
+          },
+          {
+            "time": 606239,
+            "type": "ability",
+            "value": "AUau",
+          },
+        ],
+        "id": "Udea",
+        "level": 4,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "AUfn": 1,
+          "AUfu": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 431139,
+            "type": "ability",
+            "value": "AUfu",
+          },
+          {
+            "time": 530679,
+            "type": "ability",
+            "value": "AUfn",
+          },
+        ],
+        "id": "Ulic",
+        "level": 2,
+        "retrainingHistory": [],
+      },
+      {
+        "abilities": {
+          "ANba": 1,
+        },
+        "abilityOrder": [
+          {
+            "time": 537679,
+            "type": "ability",
+            "value": "ANba",
+          },
+        ],
+        "id": "Nbrn",
+        "level": 1,
+        "retrainingHistory": [],
+      },
+    ],
+    "id": 2,
+    "items": {
+      "order": [
+        {
+          "id": "rnec",
+          "ms": 166359,
+        },
+        {
+          "id": "rnec",
+          "ms": 166499,
+        },
+        {
+          "id": "rnec",
+          "ms": 307119,
+        },
+        {
+          "id": "skul",
+          "ms": 307259,
+        },
+        {
+          "id": "rnec",
+          "ms": 427779,
+        },
+        {
+          "id": "ocor",
+          "ms": 563759,
+        },
+        {
+          "id": "ocor",
+          "ms": 563899,
+        },
+      ],
+      "summary": {
+        "ocor": 2,
+        "rnec": 4,
+        "skul": 1,
+      },
+    },
+    "name": "iNSUPERABLE#11842",
+    "race": "U",
+    "raceDetected": "U",
+    "resourceTransfers": [],
+    "teamid": 1,
+    "units": {
+      "order": [
+        {
+          "id": "uaco",
+          "ms": 1799,
+        },
+        {
+          "id": "uaco",
+          "ms": 17999,
+        },
+        {
+          "id": "uaco",
+          "ms": 18139,
+        },
+        {
+          "id": "ugho",
+          "ms": 70499,
+        },
+        {
+          "id": "ugho",
+          "ms": 70639,
+        },
+        {
+          "id": "ucry",
+          "ms": 106499,
+        },
+        {
+          "id": "ucry",
+          "ms": 139519,
+        },
+        {
+          "id": "ucry",
+          "ms": 139639,
+        },
+        {
+          "id": "ucry",
+          "ms": 186099,
+        },
+        {
+          "id": "ucry",
+          "ms": 186239,
+        },
+        {
+          "id": "ucry",
+          "ms": 242119,
+        },
+        {
+          "id": "ucry",
+          "ms": 265539,
+        },
+        {
+          "id": "ugho",
+          "ms": 287879,
+        },
+        {
+          "id": "ucry",
+          "ms": 339259,
+        },
+        {
+          "id": "uobs",
+          "ms": 495999,
+        },
+        {
+          "id": "ucry",
+          "ms": 500099,
+        },
+        {
+          "id": "uobs",
+          "ms": 513139,
+        },
+        {
+          "id": "ucry",
+          "ms": 652299,
+        },
+      ],
+      "summary": {
+        "uaco": 3,
+        "ucry": 10,
+        "ugho": 3,
+        "uobs": 2,
+      },
+    },
+    "upgrades": {
+      "order": [
+        {
+          "id": "Rubu",
+          "ms": 465119,
+        },
+        {
+          "id": "Rura",
+          "ms": 614559,
+        },
+        {
+          "id": "Rusp",
+          "ms": 634919,
+        },
+        {
+          "id": "Rusp",
+          "ms": 635039,
+        },
+      ],
+      "summary": {
+        "Rubu": 1,
+        "Rura": 1,
+        "Rusp": 2,
+      },
+    },
+  },
+]
+`;
+
+exports[`should return chat mode types correctly 1`] = `
+[
+  {
+    "message": "ping good?",
+    "mode": "All",
+    "playerId": 2,
+    "playerName": "iNSUPERABLE#11842",
+    "timeMS": 20379,
+  },
+  {
+    "message": "how much ping do u hv",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 29779,
+  },
+  {
+    "message": "im gd",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 31319,
+  },
+  {
+    "message": "135",
+    "mode": "All",
+    "playerId": 2,
+    "playerName": "iNSUPERABLE#11842",
+    "timeMS": 32659,
+  },
+  {
+    "message": "145",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 37419,
+  },
+  {
+    "message": "almost same",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 40319,
+  },
+  {
+    "message": "yea nice",
+    "mode": "All",
+    "playerId": 2,
+    "playerName": "iNSUPERABLE#11842",
+    "timeMS": 42659,
+  },
+  {
+    "message": "glhf",
+    "mode": "All",
+    "playerId": 2,
+    "playerName": "iNSUPERABLE#11842",
+    "timeMS": 43159,
+  },
+  {
+    "message": "gl",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 45599,
+  },
+  {
+    "message": "GG",
+    "mode": "All",
+    "playerId": 1,
+    "playerName": "IIIIIlllIIIl#3697",
+    "timeMS": 661359,
+  },
+  {
+    "message": "gg",
+    "mode": "All",
+    "playerId": 2,
+    "playerName": "iNSUPERABLE#11842",
+    "timeMS": 662419,
+  },
+]
+`;

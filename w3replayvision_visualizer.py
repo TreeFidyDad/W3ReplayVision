@@ -566,14 +566,21 @@ def create_pygame_with_multi_replay():
             bar_rect = pygame.Rect(timeline_left, bar_y, timeline_width, 6)
             pygame.draw.rect(screen, BAR, bar_rect, border_radius=6)
             pygame.draw.rect(screen, BAR_BG, bar_rect, 2, border_radius=6)
-            # Draw each time group vertically stacked
+
+            # --- Consolidate duplicate icons at this timestamp ---
+            from collections import Counter
+
             for tsec, events in events_by_time.items():
                 x = timeline_left + int((tsec - t0) * px_per_sec)
-                stack_n = len(events)
+                # Count how many of each unit appear at this second
+                name_counts = Counter([event['name'] for event in events])
+                unique_names = list(name_counts.keys())
+                stack_n = len(unique_names)
                 total_height = stack_n * timeline_icon_size + (stack_n - 1) * 2
-                for stack_idx, event in enumerate(events):
+                for stack_idx, unit_name in enumerate(unique_names):
+                    count = name_counts[unit_name]
                     y_offset = bar_y - total_height//2 + stack_idx * (timeline_icon_size + 2)
-                    img_path = unit_icons.get(event['name'], default_icon_path)
+                    img_path = unit_icons.get(unit_name, default_icon_path)
                     if not os.path.exists(img_path):
                         img_path = default_icon_path
                     if img_path not in img_cache:
@@ -584,11 +591,23 @@ def create_pygame_with_multi_replay():
                             img_cache[img_path].fill((180,180,180))
                     icon_img = pygame.transform.smoothscale(img_cache[img_path], (timeline_icon_size, timeline_icon_size))
                     icon_rect = pygame.Rect(x - timeline_icon_size//2, y_offset, timeline_icon_size, timeline_icon_size)
-                    if event['time_sec'] <= playhead_time:
+                    # Highlight if before or after playhead
+                    if tsec <= playhead_time:
                         pygame.draw.rect(screen, color, icon_rect.inflate(6,6), 3, border_radius=8)
                     else:
                         pygame.draw.rect(screen, color, icon_rect, 1, border_radius=8)
                     screen.blit(icon_img, icon_rect.topleft)
+                    # --- Draw count overlay if more than 1 ---
+                    if count > 1:
+                        overlay_font = pygame.font.SysFont("Segoe UI", int(timeline_icon_size * 0.65), bold=True)
+                        overlay_text = overlay_font.render(f"x{count}", True, (250, 230, 40))
+                        text_rect = overlay_text.get_rect(bottomright=(icon_rect.right-4, icon_rect.bottom-2))
+                        # Add a semi-transparent dark background for readability
+                        overlay_bg = pygame.Surface((text_rect.width+4, text_rect.height+2), pygame.SRCALPHA)
+                        overlay_bg.fill((20,20,20,170))
+                        screen.blit(overlay_bg, (text_rect.left-2, text_rect.top-1))
+                        screen.blit(overlay_text, text_rect)
+
             # Playhead (always visible)
             playhead_x = timeline_left + int((playhead_time - t0) * px_per_sec)
             pygame.draw.line(screen, HIGHLIGHT, (playhead_x, bar_y-30), (playhead_x, bar_y+timeline_icon_size+20), 4)

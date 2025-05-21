@@ -246,7 +246,7 @@ Orb of Corruption,Icons/BTNOrbOfCorruption.webp
 Great Hall,Icons/BTNGreatHall.webp
 Stronghold,Icons/BTNStronghold.webp
 Fortress,Icons/BTNFortress.webp
-Peon,Icon/BTNPeon.webp
+Peon,Icons/BTNPeon.webp
 Pillage,Icons/BTNPillage.webp
 Barracks,Icons/BTNBarracks.webp
 Grunt,Icons/BTNGrunt.webp
@@ -313,7 +313,6 @@ Voodoo Lounge,Icons/BTNVoodooLounge.webp
 Healing Salves,Icons/BTNHealingSalve.webp
 Scroll of Speed,Icons/BTNScrollOfHaste.webp
 Watch Tower,Icons/BTNOrcTower.webp
-Watch Tower,Icons/BTNWatchTower.webp
 Scroll of Healing,Icons/BTNScrollOfHealing.webp
 Orb of Lightning,Icons/BTNOrbOfLightning.webp
 Tiny Great Hall,Icons/BTNGreatHall.webp
@@ -334,3 +333,10 @@ Staff of Teleportation,Icons/BTNStaffOfTeleportation.webp
 Blacksmith,Icons/BTNBlacksmith.webp
 Goblin Shredder,Icons/BTNGoblinShredder.webp
 Tome of Retraining,Icons/BTNTomeOfRetraining.webp
+Goblin Zeppelin,Icons/BTNGoblinZeppelin.webp
+Ice Troll Berserker,Icons/BTNIceTrollBerserker.png
+Tinker,Icons/BTNHeroTinker.webp
+Tinker: Pocket Factory,Icons/BTNPocketFactory.webp
+Tinker: Cluster Rockets,Icons/BTNClusterRockets.webp
+Tinker: Engineering Upgrade,Icons/PASBTNEngineeringUpgrade.webp
+Tinker: Robo-Goblin,Icons/BTNROBOGOBLIN.webp

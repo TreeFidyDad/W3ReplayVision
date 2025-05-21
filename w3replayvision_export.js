@@ -85,7 +85,7 @@ const NAME_MAP = {
   // ===========================================================================
   // ORC -----------------------------------------------------------------------
   // Units
-  nzep: 'Zepplin',
+  nzep: 'Goblin Zeppelin',
   ngir: 'Goblin Shredder',
   opeo: 'Peon',
   ogru: 'Grunt',
@@ -150,8 +150,10 @@ const NAME_MAP = {
   ewsp: 'Wisp',
   nftb: 'Forest Troll Berserker',
   nfsp: 'Forest Troll Shadow Priest',
+  nits: 'Ice Troll Berserker',
   edry: 'Dryad',
   ebal: 'Glaive',
+  esen: 'Huntress',
   
   // Buildings
   etrp: 'Ancient Protector',
@@ -175,7 +177,7 @@ const NAME_MAP = {
   Rowd: 'War Drums Upgrade',
   Rowt: 'Spirit Walker Training',
   Rubu: 'Burrow Upgrade',
-  Rwdm: 'Wind Walk',
+  Rwdm: 'Upgrade War Drums',
   Rorb: 'Reinforced Defenses',
   Rotr: 'Troll Regeneration',
   Roar: 'Steel Unit Armor',
@@ -210,6 +212,8 @@ const NAME_MAP = {
   Reib: 'Improved Bows',
   Renb: 'Natures Blessings',
   spre: 'Resistant Skin', // alias  
+  Resm: 'Strength of the Moon',
+  Rema: 'Moon Armor',
   
 
   // ===========================================================================
@@ -245,15 +249,16 @@ const HERO_MAP = {
   Obla: 'Blademaster', Ofar: 'Far Seer', Oshd: 'Shadow Hunter', Otch: 'Tauren Chieftain',
   Hamg: 'Archmage', Hmkg: 'Mountain King', Hpal: 'Paladin', Hblm: 'Blood Mage',
   Udea: 'Death Knight', Ulic: 'Lich', Ucrl: 'Crypt Lord', Udth: 'Dreadlord',
-  Edem: 'Demon Hunter', Ekee: 'Keeper of the Grove', Epri: 'Priestess of the Moon', Ewar: 'Warden',
-  Nalc: 'Alchemist', Nbrn: 'Dark Ranger', Nngs: "Naga"
-
+  Edem: 'Demon Hunter', Ekee: 'Keeper of the Grove', Emoo: 'Priestess of the Moon', Ewar: 'Warden',
+  Nalc: 'Alchemist', Nbrn: 'Dark Ranger', Nngs: "Naga",
+// Neutral
+  Ntin: 'Tinker',
 };
 
 const ABILITY_MAP = {
    // Night Elf
     // KOTG
-    // POTM
+    AHfa: 'Searing Arrows', AEar: 'Trueshot Aura', // POTM
     // DH
     // Warden
   // Human
@@ -267,6 +272,8 @@ const ABILITY_MAP = {
        AHdr: 'Siphon Mana', AHwe: 'Water Elemental', AHab: 'Brilliance Aura',
    // Undead
    // Orc
+   // Neutral
+    ANsy: 'Pocket Factory', //Tinker
   AOwk: 'Wind Walk', AOcr: 'Critical Strike', AOmi: 'Mirror Image', AObl: 'Bladestorm',
   AOhx: 'Hex', AOsw: 'Serpent Ward', AOhw: 'Healing Wave', AObv: 'Big Bad Voodoo',
   AOfs: 'Far Sight', AOsf: 'Feral Spirit', AOcl: 'Chain Lightning',
